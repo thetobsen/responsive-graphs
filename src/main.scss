@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: #F5F5F5;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #212121;
+}
+
+.test {
+	color: #ff0;
+}
+
+.wrapper {
+	grid-column: 2/3;
+	padding: 10px;
+}
+
+.overview {
+	h1 {
+		margin-bottom: .3em;
+	}
+
+	header {
+		text-align: center;
+		margin-bottom: 3em;
+
+		.heading {
+			font-style: italic;
+			font-size: 1.2em;
+			color: #616161;
+		}
+	}
+
+	.article {
+		padding: 20px;
+		background: #FAFAFA;
+		box-shadow: 0 5px 8px rgba(0,0,0,.1);
+
+		& + .article {
+			margin-top: .5em;
+		}
+
+		.title {			
+			font-size: 1.1em;
+			font-weight: 600;
+			margin-bottom: .3em;
+
+			a {
+				color: #00695C;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}		
+
+		.authors {
+			color: #616161;
+			margin-bottom: 1em;
+
+			span {
+				position: relative;
+				
+				& + span {
+					margin-left: 20px;
+
+					&::before {
+						position: absolute;
+						left: -13px;
+						top: 1px;
+						content: '●';
+						font-size: .8em;
+					}
+				}
+			}			
+		}
+
+		.actions {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+			.controls {				
+				font-size: 0.9em;
+				flex-basis: 150px;
+				
+
+				a {
+					display: inline-flex;					
+					align-items: center;
+					padding: 5px;
+					border-radius: 4px;
+					color: #616161;
+
+					&:hover {
+						background: #E0E0E0;
+					}
+				}
+
+				svg {
+					margin-right: 7px;
+				}
+			}
+		}
+	}
+}
+
+
+
+@media (min-width: 700px) {
+	.grid {
+	    display: grid;
+	    grid-template-columns: 1fr minmax(auto, 55em) 1fr;
+	}
+
+}
