@@ -3,7 +3,7 @@ import 'firebase/auth';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDmyVIQ0A366BvthaSfmPb6I0LgmzO_K0U",
+    apiKey: process.env.FIREBASE_API_KEY,
     authDomain: "imld-master.firebaseapp.com",
     databaseURL: "https://imld-master.firebaseio.com",
     projectId: "imld-master",

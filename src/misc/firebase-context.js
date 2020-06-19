@@ -15,7 +15,5 @@ const FirebaseProvider = ({ children }) => {
 	);	
 };
 
-
-
 export default FirebaseContext;
 export { FirebaseProvider };

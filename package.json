@@ -1,30 +1,48 @@
 {
     "scripts": {
-        "build": "webpack --mode development",
-        "start:dev": "webpack-dev-server"
+        "build": "cross-env NODE_ENV=production webpack --mode production",
+        "build:dev": "cross-env NODE_ENV=development webpack --mode development",
+        "deploy": "yarn build && gh-pages -d dist",
+        "start:dev": "cross-env NODE_ENV=development webpack-dev-server",
+        "firebase:init": "node_modules/.bin/firebase.cmd init",
+        "firebase:login": "node_modules/.bin/firebase.cmd login",
+        "firebase:deploy": "node_modules/.bin/firebase.cmd deploy"
     },
     "devDependencies": {
         "@babel/core": "^7.10.2",
+        "@babel/plugin-proposal-optional-chaining": "^7.10.1",
         "@babel/preset-env": "^7.10.2",
         "@babel/preset-react": "^7.10.1",
         "babel-eslint": "^10.1.0",
         "babel-loader": "^8.1.0",
         "css-loader": "^3.6.0",
+        "dotenv-webpack": "^1.8.0",
         "eslint": "^7.2.0",
         "eslint-plugin-react": "^7.20.0",
         "eslint-plugin-react-hooks": "^4.0.4",
+        "file-loader": "^6.0.0",
+        "gh-pages": "^3.0.0",
         "mini-css-extract-plugin": "^0.9.0",
         "node-sass": "^4.14.1",
         "sass-loader": "^8.0.2",
+        "url-loader": "^4.1.0",
         "webpack": "^4.43.0",
         "webpack-cli": "^3.3.11",
         "webpack-dev-server": "^3.11.0"
     },
     "dependencies": {
+        "classnames": "^2.2.6",
         "firebase": "^7.15.1",
+        "firebase-tools": "^8.4.2",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-feather": "^2.0.8",
-        "react-router-dom": "^5.2.0"
+        "react-router-dom": "^5.2.0",
+        "react-spinners-kit": "^1.9.1",
+        "react-textarea-autosize": "^8.0.1",
+        "react-toast-notifications": "^2.4.0",
+        "semantic-ui-css": "^2.4.1",
+        "semantic-ui-react": "^0.88.2",
+        "timeago.js": "^4.0.2"
     }
 }

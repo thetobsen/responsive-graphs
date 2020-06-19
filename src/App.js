@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { ToastProvider } from 'react-toast-notifications'
 
-import { db } from './misc/firebase';
+import { FirebaseProvider } from './misc/firebase-context';
+import { StoreProvider } from './misc/store-context';
 
+import AuthWrapper from './components/AuthWrapper';
 import LiteratureOverview from './components/LiteratureOverview';
+import Article from './components/Article';
+import AddArticle from './components/AddArticle';
 
-import Test from './Test';
 
 import './main.scss';
 
@@ -18,47 +22,31 @@ const cats = [
 
 
 const App = () => {
-	// const categoryItems = data.reduce((acc, entry) => {
-	// 	if (acc[entry.category] === undefined) {
-	// 		acc[entry.category] = [];
-	// 	}
-
-	// 	acc[entry.category].push(entry);
-	// 	return acc;
-	// }, {})
-
-	// db.ref('/database/articles').once('value').then(s => console.log(s))
-	db.collection('articles').get().then(snapshot => {
-		snapshot.forEach(doc => {
-			console.log(doc.id, doc.data())
-
-			db.collection('comments').where('postedTo', '==', doc.id).get().then(s => {
-				s.forEach(comment => {
-					console.log(comment.id, comment.data());
-				})
-			})
-
-		})
-	})
-
-
 	return (
-		<div className="grid">			
-			<Router>
-				<Switch>
-					<Route exact path="/">
-						<LiteratureOverview />
-					</Route>
-					<Route path="/articles/:id">
-						<Test />
-					</Route>
-					<Route>
-						<h1>Not found</h1>
-					</Route>
-					
-				</Switch>
-			</Router>		
-		</div>
+		<FirebaseProvider>
+			<StoreProvider>
+				<Router>
+					<ToastProvider autoDismiss autoDismissTimeout={3000}>
+						<AuthWrapper>					
+							<Switch>
+								<Route exact path="/">
+									<LiteratureOverview />
+								</Route>
+								<Route path="/articles/add">
+									<AddArticle />
+								</Route>
+								<Route path="/articles/:bibId">
+									<Article />
+								</Route>
+								<Route>
+									<h1>Not found</h1>
+								</Route>							
+							</Switch>							
+						</AuthWrapper>
+					</ToastProvider>
+				</Router>				
+			</StoreProvider>
+		</FirebaseProvider>
 	)
 };
 
