@@ -3,10 +3,12 @@ import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, Send } from 'react-feather';
 import { CircleSpinner } from 'react-spinners-kit';
 import TextareaAutosize from 'react-textarea-autosize';
+import { useToasts } from 'react-toast-notifications';
 import classNames from 'classnames';
 
 import FirebaseContext from '../misc/firebase-context';
 import StoreContext from '../misc/store-context';
+import { QUERY_TOKEN } from '../misc/constants';
 
 import Comments from './Comments';
 
@@ -17,11 +19,13 @@ const Article = () => {
 	const [content, setContent] = useState('');
 	const { bibId } = useParams();
 
-	const { db, auth } = useContext(FirebaseContext);
-	const { comments, setComments } = useContext(StoreContext);
+	const { addToast } = useToasts();
+
+	const { db } = useContext(FirebaseContext);
+	const { comments, setComments, commentWriteToken, user } = useContext(StoreContext);
 
 	useEffect(() => {
-		db.collection('articles').where('bibId', '==', bibId).limit(1).get().then(snapshot => {
+		db().collection('articles').where('bibId', '==', bibId).limit(1).get().then(snapshot => {
 			if (!snapshot.empty) {
 				setArticle({ ...snapshot.docs[0].data(), id: snapshot.docs[0].id});				
 			}
@@ -32,7 +36,7 @@ const Article = () => {
 		if (article === null) return;
 		if (comments?._bibId === bibId) return;
 
-		db.collection('comments')
+		db().collection('comments')
 			.where('postedTo', '==', article.id)
 			.orderBy('postedAt', 'desc')
 			.get().then(snapshot => {
@@ -61,15 +65,16 @@ const Article = () => {
 				content: content,
 				postedTo: article.id,
 				postedBy: 'Anonymous',
-				postedById: auth?.currentUser?.uid,
-				postedAt: new Date()
+				postedById: user?.uid,
+				postedAt: new Date(),
+				[QUERY_TOKEN]: commentWriteToken
 			};
 
-
-			const commentRef = db.collection('comments').doc();
-			const articleRef = db.collection('articles').doc(article.id);
+			const commentRef = db().collection('comments').doc();
+			const articleRef = db().collection('articles').doc(article.id);
 			const newCommentCount = article.commentCount + 1;
-			const batch = db.batch();
+
+			const batch = db().batch();
 			batch.set(commentRef, newComment);
 			batch.update(articleRef, { commentCount: newCommentCount });
 
@@ -80,29 +85,18 @@ const Article = () => {
 				setComments({ data: [newComment, ...comments.data], _bibId: comments._bibId });
 				setContent('');
 				setCommentFocus(false);
-				setCommentSending(false);
 				setArticle({ ...article, commentCount: newCommentCount });
+			})
+			.catch(err => {
+				addToast(err.message, { appearance: 'error' });
+			})
+			.finally(() => {
+				setCommentSending(false);
 			});
 		}
 	}
 
-
 	const newCommentClasses = classNames('new-comment', { expanded: commentFocus })
-
-
-	/* 
-
-	https://stackoverflow.com/questions/3508605/how-can-i-transition-height-0-to-height-auto-using-css
-	https://dribbble.com/shots/6853189-Comment-section-login-prototype
-	https://www.uplabs.com/posts/comment-system
-	https://dribbble.com/shots/1471411-The-Loop-GIF
-	https://dribbble.com/shots/1784870-New-Loop-Form
-
-	https://dribbble.com/search/comment%20form
-
-
-
-	*/
 
 	if (article === null) {
 		return (

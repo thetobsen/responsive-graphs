@@ -73,7 +73,7 @@ const AddArticle = () => {
 			noteCount: 0,
 		};
 
-		db.collection('articles').add(newArticle)
+		db().collection('articles').add(newArticle)
 			.then(() => {
 				setTitle('');
 				setBibId('');
@@ -86,7 +86,6 @@ const AddArticle = () => {
 			})
 			.catch(err => {
 				addToast(err.message, { appearance: 'error' });
-				console.warn(err);
 			})
 			.finally(() => {
 				setLoading(false);

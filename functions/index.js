@@ -1,4 +1,6 @@
 const functions = require('firebase-functions');
+const admin = require('firebase-admin');
+admin.initializeApp();
 
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
@@ -8,11 +10,9 @@ const functions = require('firebase-functions');
 // });
 
 
-exports.incrementCommentCounter = functions.region('europe-west1').firestore
+exports.deleteCommentToken = functions.region('europe-west1').firestore
   	.document('comments/{id}')
   	.onCreate((snap, context) => {
-		const { postedTo } = snap.data();
-
-		console.log(postedTo);
+		admin.firestore().collection('comments').doc(snap.id).update({ t: admin.firestore.FieldValue.delete() });
   	}
 );

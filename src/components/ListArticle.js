@@ -7,7 +7,7 @@ import { PUBLISHER } from '../misc/constants';
 const ListArticle = ({ bibId, title, publisher, abstract, authors = [], commentCount = 0 }) => (
 	<div className="art">
 		<div className="title">
-			<Link to={`/articles/${bibId}`}>{title}</Link>
+			<Link to={`/article/${bibId}`}>{title}</Link>
 		</div>
 		<div className="authors">
 			{ authors.map(author => <span key={author}>{author}</span>) }
@@ -17,7 +17,7 @@ const ListArticle = ({ bibId, title, publisher, abstract, authors = [], commentC
 		</div>
 		<div className="actions">
 			<div className="controls">
-				<Link to={`/articles/${bibId}`}><MessageSquare size=".9em" />{`${commentCount} Comments`}</Link>
+				<Link to={`/article/${bibId}`}><MessageSquare size=".9em" />{`${commentCount} Comments`}</Link>
 			</div>
 			<div className="publisher">
 				{ publisher 

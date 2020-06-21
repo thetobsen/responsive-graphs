@@ -5,15 +5,21 @@ const StoreContext = createContext();
 const StoreProvider = ({ children }) => {
 	const [articles, setArticles] = useState([]);
 	const [comments, setComments] = useState({ data: null, _bibId: '' });
-	const [user, setUser] = useState(null)
+	const [user, setUser] = useState(null);
+	const [commentWriteToken, setCommentWriteToken] = useState(null);
 
 	const storeValue = {
 		articles,
 		setArticles,
+
 		comments,
 		setComments,
+
 		user,
-		setUser
+		setUser,
+
+		commentWriteToken,
+		setCommentWriteToken,
 	};	
 
 	return (
