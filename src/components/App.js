@@ -11,6 +11,7 @@ import Article from './Article';
 import AddArticle from './AddArticle';
 import Timeline from './Timeline';
 import Home from './Home';
+import AddTracking from './AddTracking';
 
 import '../main.scss';
 
@@ -36,6 +37,9 @@ const App = () => {
 								</Route>
 								<Route path="/timeline">
 									<Timeline />
+								</Route>
+								<Route path="/tracker">
+									<AddTracking />
 								</Route>
 								<Route>
 									<div className="wrapper">

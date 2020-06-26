@@ -111,7 +111,7 @@ const Article = () => {
 	return (
 		<div className="wrapper article">
 			<header>
-				<Link to="/"><ArrowLeft /> Back to Overview</Link>
+				<Link to="/literature"><ArrowLeft /> Back to Overview</Link>
 				<h1>{title}</h1>
 			</header>
 			<main>

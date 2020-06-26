@@ -608,6 +608,148 @@ body {
 	}
 }
 
+.tracker {
+	header {
+		text-align: center;
+		margin-bottom: 3em
+	}
+
+	.date-field {
+		& > .field {
+			width: 100%;
+		}
+
+		.field .field .ui.input input {
+			width: unset;
+		}
+	}
+
+	.time-field {
+		& > span {
+			width: 100%;
+		}
+	}
+
+	.ui.form .field.task-field {
+		flex: 1 1;
+	}
+
+	.ui.form .field.save-field {
+		display: flex;
+		align-items: end;
+	}
+
+	.ui.form .fields {
+		margin-bottom: .5em;
+	}
+
+	.form-wrapper {
+		padding-bottom: 20px;
+		border-bottom: 2px solid #ccc;
+		margin-bottom: 1.5em;
+	}
+
+	.overview-table {
+		width: 100%;
+		text-align: left;
+		border-spacing: 0;
+
+		& > thead {
+			color: #757575;
+
+			& th {
+				padding: 8px 0;
+				font-size: .9em;
+			}
+		}
+
+		& > tbody {
+
+
+			& > tr {
+				// background: #E0E0E0;
+
+				&:hover {
+					background: #E0F2F1;
+					cursor: pointer;
+				}
+
+				&:nth-child(4n+3) {
+					// background: #E0F2F1;
+				}
+			}
+	
+
+			& > tr {
+				& > td {
+					padding: 13px 0;
+					border-bottom: 1px solid #E0E0E0;
+				}	
+
+				&.date-details {
+					display: none;
+				}
+			}	
+		}
+	}
+
+	.detail-table {
+		width: 100%;
+		border-left: 15px solid #00695C;
+
+		td, th {
+			padding: 10px 8px;
+		}
+	}
+
+
+	.grid-table {
+		.t-grid {
+			display: grid;
+			grid-template-columns: 40px 1fr 1fr 1fr;
+		}
+
+		.t-head {
+			font-size: .9em;
+			font-weight: 600;
+			color: #757575;
+		}
+	}
+
+
+
+}
+
+.semantic-like {
+
+	& .rc-time-picker {
+		input.rc-time-picker-input {
+			height: auto;
+			padding: .67857143em 1em;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+
+		.rc-time-picker-clear {
+			top: 9px;
+		}
+		
+	}
+
+	&--popup .rc-time-picker-panel-inner {
+
+		.rc-time-picker-panel-input-wrap {
+			padding: .75em 1em;
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 14px;
+
+			input {
+				font-family: 'Source Sans Pro', sans-serif;
+			}
+		}
+		
+	}
+}
+
 
 @media (min-width: 850px) {
 	.grid {
