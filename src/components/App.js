@@ -11,7 +11,7 @@ import Article from './Article';
 import AddArticle from './AddArticle';
 import Timeline from './Timeline';
 import Home from './Home';
-import AddTracking from './AddTracking';
+import TimeTracker from './TimeTracker';
 
 import '../main.scss';
 
@@ -39,7 +39,7 @@ const App = () => {
 									<Timeline />
 								</Route>
 								<Route path="/tracker">
-									<AddTracking />
+									<TimeTracker />
 								</Route>
 								<Route>
 									<div className="wrapper">

@@ -20,6 +20,12 @@ const chartColumns = [
 	{ type: 'date', id: 'End' }
 ];
 
+const chartMarkers = [
+	{ text: 'Today', date: new Date(), color: mc.red[900] },
+	{ text: 'Completion of the conception', date: new Date(2020, 7, 10), color: mc.deepOrange[900] },
+	{ text: 'Completion of most implementation aspects', date: new Date(2020, 9, 11), color: mc.indigo[900] },
+];
+
 const dateDiff = (d1, d2, unit = 'day') => {
 	return dayjs(d1).diff(dayjs(d2), unit);
 };
@@ -89,7 +95,8 @@ const Timeline = () => {
 				const fireData = [];
 				const scheduleData = [
 					chartColumns,
-					[ '\0', 'Today', 'color: #ff0000', '', today, today]
+					...chartMarkers.map(m => ['\0', m.text, `fill-color: ${m.color}`, '', m.date, m.date])
+					// [ '\0', 'Today', 'color: #ff0000', '', today, today]
 				];
 
 				snapshot.forEach(doc =>	{ 
@@ -127,7 +134,7 @@ const Timeline = () => {
 			<h1>Timeline</h1>
 			<Chart				
 				width={'100%'}
-				height={'calc(100% - 108px)'}
+				height={'calc(100% - 36px)'}
 				chartType="Timeline"
 				loader={<div className="center-notice"><CircleSpinner size={45} color="#00695C" /></div>}
 				data={schedule}
@@ -152,31 +159,49 @@ const Timeline = () => {
 							}, 0);
 
 							const textNodes = document.querySelectorAll('[id^="reactgooglegraph-"] svg text');
-							const todayText = Array.from(textNodes).filter(n => n.textContent === 'Today');
-							const todayRect = todayText[0].previousSibling;							
-
-							todayText[0].remove();
-							todayRect.remove();
-
 							const maxDays = dateDiff(MAX_DATE, MIN_DATE, 'hour');
-							const relative = dateDiff(new Date(), MIN_DATE, 'hour') / maxDays;
 
 							const gs = document.querySelectorAll('[id^="reactgooglegraph-"] svg > g');
 							const { x, width } = gs[3].getBBox();
 
-							const svg = document.querySelector('[id^="reactgooglegraph-"] svg');
+							const svg = document.querySelector('[id^="reactgooglegraph-"] svg:last-of-type');
 							const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
 							g.setAttribute('id', 'markers');
+
+							console.log(svg)
+							console.log(g)
+							console.log(gs[3]);
+
 							svg.insertBefore(g, gs[3]);
 
-							const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-							rect.setAttribute('x', Math.round(x + relative * width));
-							rect.setAttribute('y', 0);
-							rect.setAttribute('width', 1);
-							rect.setAttribute('height', height);
-							rect.setAttribute('fill', '#ff0000');
+							chartMarkers.forEach(m => {
+								const currentText = Array.from(textNodes).find(n => n.textContent === m.text); 
+								const currentRect = currentText.previousSibling;
 
-							g.append(rect);
+								const textX = currentText.getAttribute('x');
+								const textY = currentText.getAttribute('y');
+								const textAnchor = currentText.getAttribute('text-anchor');
+
+								currentText.remove();
+								currentRect.remove();
+
+								const relative = dateDiff(m.date, MIN_DATE, 'hour') / maxDays;
+								const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+								rect.setAttribute('x', Math.round(x + relative * width) - 1);
+								rect.setAttribute('y', 0);
+								rect.setAttribute('width', 2);
+								rect.setAttribute('height', height);
+								rect.setAttribute('fill', m.color);
+								g.append(rect);
+
+								const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+								text.setAttribute('x', textX);
+								text.setAttribute('y', textY);
+								text.setAttribute('text-anchor', textAnchor);								
+								text.setAttribute('fill', '#202020');
+								text.textContent = m.text;
+								g.append(text);
+							});
 						}
 					}
 				]}

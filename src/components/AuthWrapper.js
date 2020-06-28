@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Link, useHistory, useLocation } from 'react-router-dom';
-import { MoreVertical, FilePlus, LogIn, LogOut, Home, Clock, List } from 'react-feather';
+import { MoreVertical, FilePlus, LogIn, LogOut, BarChart2, Clock, List } from 'react-feather';
 import { CircleSpinner } from 'react-spinners-kit';
 import { useToasts } from 'react-toast-notifications';
 
@@ -95,12 +95,20 @@ const AuthWrapper = ({ children }) => {
 
 				{ !user.isAnonymous 
 					&& (
-						<span>
-							<Link to="/article/add">
-								<FilePlus size={22}/>
-								<span>Add Article</span>
-							</Link>								
-						</span>
+						<>
+							<span>
+								<Link to="/tracker">
+									<BarChart2 size={22}/>
+									<span>Time Tracker</span>
+								</Link>								
+							</span>
+							<span>
+								<Link to="/article/add">
+									<FilePlus size={22}/>
+									<span>Add Article</span>
+								</Link>								
+							</span>
+						</>
 					)
 				}
 

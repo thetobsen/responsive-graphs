@@ -3,6 +3,7 @@
   	"parser": "babel-eslint",
   	"env": { "browser": true, es6: true, node: true },
   	"rules": {
-    	"react/prop-types": 0
+    	"react/prop-types": 0,
+    	"max-len": [1, 120]
   	}
 }
