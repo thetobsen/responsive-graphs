@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect, useMemo } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { Form, Button, Input } from 'semantic-ui-react';
 import SemanticDatepicker from 'react-semantic-ui-datepickers';
 import { useToasts } from 'react-toast-notifications';
@@ -45,6 +45,16 @@ import { getPrettifiedDuration } from '../misc/utils';
 	const changeTask = e => setTask(e.target.value);
 
 	const onSubmit = () => {
+		if (!endTime.isAfter(startTime)) {
+			addToast('Starting time has to be before ending time.', { appearance: 'warning' });
+			return;
+		}
+
+		if (task.length === 0) {
+			addToast('Task must not be empty.', { appearance: 'warning' });
+			return;
+		}
+
 		const dateId = moment(date).format('YYYYMMDD');
 		
 		const entry = {
@@ -84,7 +94,7 @@ import { getPrettifiedDuration } from '../misc/utils';
 			}
 
 			setTrackingData([
-				{ id: dateId, times: [entry] },
+				{ date: { seconds: Math.floor(date.getTime() / 1000) }, id: dateId, times: [entry] },
 				...trackingData
 			]);
 
