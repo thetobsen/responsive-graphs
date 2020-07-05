@@ -7,6 +7,7 @@ import { CircleSpinner } from 'react-spinners-kit';
 
 import FirebaseContext from '../misc/firebase-context';
 import mc from '../misc/material-colors';
+import Tasks from './Tasks';
 
 const MIN_DATE = new Date(2020, 5, 1);
 const MAX_DATE = new Date(2020, 10, 20);
@@ -91,7 +92,6 @@ const Timeline = () => {
 	useEffect(() => {
 		if (schedule.length === 0) {			
 			db().collection('timeline').get().then(snapshot => {
-				const today = new Date();
 				const fireData = [];
 				const scheduleData = [
 					chartColumns,
@@ -134,7 +134,7 @@ const Timeline = () => {
 			<h1>Timeline</h1>
 			<Chart				
 				width={'100%'}
-				height={'calc(100% - 36px)'}
+				height="440px"
 				chartType="Timeline"
 				loader={<div className="center-notice"><CircleSpinner size={45} color="#00695C" /></div>}
 				data={schedule}
@@ -206,6 +206,7 @@ const Timeline = () => {
 					}
 				]}
 			/>
+			<Tasks />
 		</div>
 	);
 };

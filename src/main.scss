@@ -773,10 +773,6 @@ body {
 			}				
 		}
 	}
-	
-
-
-
 }
 
 .semantic-like {
@@ -807,6 +803,74 @@ body {
 		}
 		
 	}
+}
+
+.notes-wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-auto-rows: minmax(min-content, 150px);
+	grid-gap: 1.5em;
+	width: 100%;
+	padding-bottom: 2em;
+
+	& > div {
+		position: relative;
+		background: #fff;
+		box-shadow: 0 5px 8px rgba(0,0,0,0.1);
+		border-radius: 5px;
+		padding: 8px;
+
+		&.pinned {
+			.pin {
+				path, line, polyline {
+					stroke: #424242;
+				}
+			}
+		}
+	}
+
+	.content {
+		padding-right: 20px;
+
+		h1, h2, h3, h4, h5 {
+			margin-top: 0;
+		}
+
+		h1 { font-size: 1.2em; }
+		h2 { font-size: 1.1em; }
+		h3 { font-size: 1.05em; }
+		h4 { font-size: 1em; }
+		h5 { font-size: .9em; }
+
+		ul, ol {
+			padding-left: 20px;
+		}
+	}
+
+	.actn-btn {
+		position: absolute;
+		cursor: pointer;
+
+		path, line, polyline {
+			stroke: #BDBDBD;
+		}
+
+		&:hover {
+			path, line, polyline {
+				stroke: #424242;
+			}
+		}
+
+		&.pin {
+			right: 8px;
+			top: 8px;
+		}
+
+		&.delete {
+			right: 8px;
+			bottom: 8px;
+		}
+	}	
 }
 
 
