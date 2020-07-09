@@ -168,10 +168,6 @@ const Timeline = () => {
 							const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
 							g.setAttribute('id', 'markers');
 
-							console.log(svg)
-							console.log(g)
-							console.log(gs[3]);
-
 							svg.insertBefore(g, gs[3]);
 
 							chartMarkers.forEach(m => {
