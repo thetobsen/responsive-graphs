@@ -1,0 +1,123 @@
+{
+	"identifier": "id",
+	"node_attributes": [
+		{
+			"key": "followers_count",
+			"name": "Followers overall",
+			"type": "int",
+			"filter": "range",
+			"flags": "layout|dod|label",
+			"additional": {
+				"effective_range": [0, 30000]
+			}
+		},
+		{
+			"key": "query_tweet_count",
+			"name": "Number of Tweets using #Eurovis2019",
+			"type": "int",
+			"filter": "range",
+			"flags": "layout|dod|label"
+		},
+		{
+			"key": "friends_count",
+			"name": "Follows",
+			"type": "int",
+			"filter": "range",
+			"flags": "layout|dod|label"
+		},
+		{
+			"key": "statuses_count",
+			"name": "Number of Tweets",
+			"type": "int",
+			"filter": "range",
+			"flags": "layout|dod|label",
+			"description": "Number of all Tweets including Retweets"
+		},
+		{
+			"key": "listed_count",
+			"name": "Number of lists added to",
+			"type": "int",
+			"filter": "range",
+			"flags": "layout|dod|label"
+		},
+		{
+			"key": "favourites_count",
+			"name": "Number of liked tweets",
+			"type": "int",
+			"filter": "range",
+			"flags": "layout|dod|label"
+		},
+		{
+			"key": "count_followers_in_query",
+			"name": "Followers on Eurovis2019",
+			"type": "int",
+			"filter": "range",
+			"flags": "layout|dod|label"
+		},
+		{
+			"key": "id",
+			"name": "Profile ID",
+			"type": "int",
+			"filter": "input",
+			"flags": "label"
+		},
+		{
+			"key": "screen_name",
+			"name": "Twitter Handle",
+			"type": "string",
+			"filter": "input",
+			"flags": "dod|primary|label"
+		},
+		{
+			"key": "profile_image_url",
+			"name": "Profile image",
+			"type": "string",
+			"filter": null,
+			"flags": "img|dod",
+			"additional": {
+				"className": "profile-img"
+			}
+		},
+		{
+			"key": "influential",
+			"name": "Influential",
+			"type": "boolean",
+			"filter": "checkbox",
+			"flags": "dod|label",
+			"description": "Whether >8 followers on EuroVis19 or so"
+		},
+		{
+			"key": "original",
+			"name": "Original",
+			"type": "boolean",
+			"filter": "checkbox",
+			"flags": "dod|label",
+			"description": "Whether within the 45 accounts tweeting #Eurovis2019"
+		},
+		{
+			"key": "utc_offset",
+			"name": "UTC Offset",
+			"type": "null",
+			"filter": null,
+			"flags": ""
+		}
+	],
+	"pre_process": {
+		"filter": {
+			"edge": [
+				{
+					"type": "bidirection",
+					"key": "id"
+				}
+			]
+		}
+	},
+	"layout": {
+		"default": {
+			"xAxis": "followers_count",
+			"yAxis": "count_followers_in_query",
+			"sizeAttr": "followers_count",
+			"colorAttr": "followers_count"
+		}
+	}
+}

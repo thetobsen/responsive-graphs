@@ -1,0 +1,118 @@
+{
+	"identifier": "key",
+	"node_attributes": [
+		{
+			"key": "name",
+			"name": "Name",
+			"type": "string",
+			"filter": "input",
+			"flags": "dod|label|primary"
+		},
+		{
+			"key": "shortName",
+			"name": "Short name",
+			"type": "string",
+			"filter": "input",
+			"flags": "dod|label"
+		},
+		{
+			"key": "nickname",
+			"name": "Nickname",
+			"type": "string",
+			"filter": "input",
+			"flags": "dod|label|nullable"
+		},
+		{
+			"key": "house",
+			"name": "House",
+			"type": "string",
+			"filter": "radio",
+			"flags": "dod|label|layout|arrayable",
+			"additional": {
+				"options": [
+					{ "value": "Targaryen", "label": "Targaryen" },
+					{ "value": "none", "label": "None" },
+					{ "value": "Lannister", "label": "Lannister" },
+					{ "value": "Stark", "label": "Stark" },
+					{ "value": "Tully", "label": "Tully" },
+					{ "value": "Greyjoy", "label": "Greyjoy" },
+					{ "value": "Baratheon", "label": "Baratheon" },
+					{ "value": "Mormont", "label": "Mormont" },
+					{ "value": "Umber", "label": "Umber" },
+					{ "value": "Bolton", "label": "Bolton" }
+				]
+			}
+		},
+		{
+			"key": "parents",
+			"name": "Parents",
+			"type": "array",
+			"filter": "input",
+			"flags": "dod|nullable",
+			"additional": {
+				"array_type": "string"
+			}
+		},
+		{
+			"key": "siblings",
+			"name": "Siblings",
+			"type": "array",
+			"filter": "input",
+			"flags": "dod|nullable",
+			"additional": {
+				"array_type": "string"
+			}
+		},
+		{
+			"key": "killedBy",
+			"name": "Killed by",
+			"type": "array",
+			"filter": "input",
+			"flags": "dod|nullable",
+			"additional": {
+				"array_type": "string"
+			}
+		},
+		{
+			"key": "portrait",
+			"name": "Potrait",
+			"type": "string",
+			"filter": "input",
+			"flags": "dod|nullable|img"
+		},
+		{
+			"key": "actor",
+			"name": "Actor",
+			"type": "string",
+			"filter": "input",
+			"flags": "dod|nullable|label"
+		},
+		{
+			"key": "screenTime",
+			"name": "Screen time",
+			"type": "int",
+			"filter": "range",
+			"flags": "dod|layout|label|seconds"
+		},
+		{
+			"key": "gender",
+			"name": "Gender",
+			"type": "string",
+			"filter": "radio",
+			"flags": "dod|layout|label",
+			"additional": {
+				"options": [
+					{ "value": "male", "label": "Male" },
+					{ "value": "female", "label": "Female" }
+				]
+			}
+		},
+		{
+			"key": "key",
+			"name": "ID",
+			"type": "string",
+			"filter": "input",
+			"flags": "label"
+		}		
+	]
+}

@@ -1,0 +1,4028 @@
+{
+  "nodes": [
+    {
+      "name": "Aegon Targaryen",
+      "shortName": "",
+      "nickname": null,
+      "house": "Targaryen",
+      "parents": [
+        "Elia Martell",
+        "Rhaegar Targaryen"
+      ],
+      "siblings": [
+        "Rhaenys Targaryen",
+        "Jon Snow"
+      ],
+      "killedBy": [
+        "Gregor Clegane"
+      ],
+      "portrait": null,
+      "actor": null,
+      "screenTime": 0,
+      "gender": "male",
+      "key": "AEGON"
+    },
+    {
+      "name": "Aerys II Targaryen",
+      "shortName": "",
+      "nickname": "The Mad King",
+      "house": "Targaryen",
+      "parents": null,
+      "siblings": [
+        "Rhaella Targaryen"
+      ],
+      "killedBy": [
+        "Jaime Lannister"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMWQzOWViN2ItNDZhOS00MmZlLTkxZTYtZDg5NGUwMGRmYWZjL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "actor": "David Rintoul",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "AERYS"
+    },
+    {
+      "name": "Alanna",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Kim Chapman",
+      "screenTime": 0,
+      "gender": "female",
+      "key": "ALANNA"
+    },
+    {
+      "name": "Alton Lannister",
+      "shortName": "",
+      "nickname": null,
+      "house": "Lannister",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Jaime Lannister"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU0NTU1NTAzOF5BMl5BanBnXkFtZTcwNzA2NDk4OA@@._V1._SX100_SY140_.jpg",
+      "actor": "Karl Davies",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "ALTON"
+    },
+    {
+      "name": "Alys Karstark",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": [
+        "Harald Karstark"
+      ],
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Megan Parkinson",
+      "screenTime": 89,
+      "gender": "female",
+      "key": "ALYS"
+    },
+    {
+      "name": "Arya Stark",
+      "shortName": "",
+      "nickname": null,
+      "house": "Stark",
+      "parents": [
+        "Eddard Stark",
+        "Catelyn Stark"
+      ],
+      "siblings": [
+        "Robb Stark",
+        "Sansa Stark",
+        "Bran Stark",
+        "Rickon Stark"
+      ],
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk5MTYwNDc0OF5BMl5BanBnXkFtZTcwOTg2NDg1Nw@@._V1._SX100_SY140_.jpg",
+      "actor": "Maisie Williams",
+      "screenTime": 2287,
+      "gender": "female",
+      "key": "ARYA"
+    },
+    {
+      "name": "Beric Dondarrion",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Sandor Clegane",
+        "Wights"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQwMTEwNTg2MF5BMl5BanBnXkFtZTgwNTAxODYxOTE@._V1._SX100_SY140_.jpg",
+      "actor": "Richard Dormer",
+      "screenTime": 415,
+      "gender": "male",
+      "key": "BERIC"
+    },
+    {
+      "name": "Bran Stark",
+      "shortName": "",
+      "nickname": null,
+      "house": "Stark",
+      "parents": [
+        "Eddard Stark",
+        "Catelyn Stark"
+      ],
+      "siblings": [
+        "Robb Stark",
+        "Sansa Stark",
+        "Arya Stark",
+        "Rickon Stark"
+      ],
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTA1NTg0NTI3MTBeQTJeQWpwZ15BbWU3MDEyNjg4OTQ@._V1._SX100_SY140_.jpg",
+      "actor": "Isaac Hempstead Wright",
+      "screenTime": 1082,
+      "gender": "male",
+      "key": "BRAN"
+    },
+    {
+      "name": "Brienne of Tarth",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzNDY4NzgzOV5BMl5BanBnXkFtZTcwNDM5ODg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Gwendoline Christie",
+      "screenTime": 1453,
+      "gender": "female",
+      "key": "BRIENNE"
+    },
+    {
+      "name": "Bronn",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY0MzI5MjY1OV5BMl5BanBnXkFtZTcwODM1ODg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Jerome Flynn",
+      "screenTime": 491,
+      "gender": "male",
+      "key": "BRONN"
+    },
+    {
+      "name": "Catelyn Stark",
+      "shortName": "",
+      "nickname": null,
+      "house": [
+        "Stark",
+        "Tully"
+      ],
+      "parents": [
+        "Hoster Tully"
+      ],
+      "siblings": [
+        "Lysa Arryn",
+        "Edmure Tully"
+      ],
+      "killedBy": [
+        "Black Walder Rivers"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY2ODc4MTkxMV5BMl5BanBnXkFtZTcwNjM3MTg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Michelle Fairley",
+      "screenTime": 0,
+      "gender": "female",
+      "key": "CATELYN"
+    },
+    {
+      "name": "Cersei Lannister",
+      "shortName": "",
+      "nickname": null,
+      "house": [
+        "Lannister",
+        "Baratheon"
+      ],
+      "parents": [
+        "Tywin Lannister"
+      ],
+      "siblings": [
+        "Jaime Lannister",
+        "Tyrion Lannister"
+      ],
+      "killedBy": [
+        "Roof collapse"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgzNTAxNjExMl5BMl5BanBnXkFtZTcwMDEwNzI4OQ@@._V1._CR954,56,605,670._SX100_SY140_.jpg",
+      "actor": "Lena Headey",
+      "screenTime": 920,
+      "gender": "female",
+      "key": "CERSEI"
+    },
+    {
+      "name": "Cersei's Baby",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": null,
+      "screenTime": 0,
+      "gender": "male",
+      "key": "CERSEIS_BABY"
+    },
+    {
+      "name": "Crayah",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Lucy Aarden",
+      "screenTime": 0,
+      "gender": "female",
+      "key": "CRAYAH"
+    },
+    {
+      "name": "Daenerys Targaryen",
+      "shortName": "",
+      "nickname": null,
+      "house": "Targaryen",
+      "parents": [
+        "Aerys II Targaryen",
+        "Rhaella Targaryen"
+      ],
+      "siblings": [
+        "Rhaegar Targaryen",
+        "Viserys Targaryen"
+      ],
+      "killedBy": [
+        "Jon Snow"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4MzIxMTQwMF5BMl5BanBnXkFtZTcwMzY2NDg1Nw@@._V1._SX100_SY140_.jpg",
+      "actor": "Emilia Clarke",
+      "screenTime": 3545,
+      "gender": "female",
+      "key": "DAENERYS"
+    },
+    {
+      "name": "Davos Seaworth",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTMwODc0NzI4Ml5BMl5BanBnXkFtZTcwNzY3NDk4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Liam Cunningham",
+      "screenTime": 1165,
+      "gender": "male",
+      "key": "DAVOS"
+    },
+    {
+      "name": "Dickon Tarly",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": [
+        "Randyll Tarly",
+        "Melessa Tarly"
+      ],
+      "siblings": [
+        "Samwell Tarly",
+        "Talla Tarly"
+      ],
+      "killedBy": [
+        "Daenerys Targaryen"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzk1YjNlZGQtNTU0MC00OGZmLThhYTQtZDM1ZjI2OGNlZGQxXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "actor": "Tom Hopper",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "DICKON"
+    },
+    {
+      "name": "Dirah",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Marina Lawrence-Mahrra",
+      "screenTime": 0,
+      "gender": "female",
+      "key": "DIRAH"
+    },
+    {
+      "name": "Dornish Prince",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Toby Osmond",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "DORNISH_PRINCE"
+    },
+    {
+      "name": "Eddison Tollett",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Wight"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY1MjQ4ODAwNV5BMl5BanBnXkFtZTcwMTc5NDk4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Ben Crompton",
+      "screenTime": 201,
+      "gender": "male",
+      "key": "EDDISON_TOLLETT"
+    },
+    {
+      "name": "Edmure Tully",
+      "shortName": "",
+      "nickname": null,
+      "house": "Tully",
+      "parents": null,
+      "siblings": [
+        "Catelyn Stark",
+        "Lysa Arryn"
+      ],
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BYjEzNThlMmQtMDgzYi00MTQ5LTllMzQtNDZjY2JiMTVhNmNkXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "actor": "Tobias Menzies",
+      "screenTime": 149,
+      "gender": "male",
+      "key": "EDMURE"
+    },
+    {
+      "name": "Euron Greyjoy",
+      "shortName": "",
+      "nickname": null,
+      "house": "Greyjoy",
+      "parents": null,
+      "siblings": [
+        "Balon Greyjoy",
+        "Aeron Greyjoy"
+      ],
+      "killedBy": [
+        "Jaime Lannister"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzg1MTJhMjMtMmY4Yy00NTU2LTliZWUtNjM4YzAxY2M3ZDBkXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "actor": "Pilou Asbæk",
+      "screenTime": 684,
+      "gender": "male",
+      "key": "EURON"
+    },
+    {
+      "name": "Gendry",
+      "shortName": "",
+      "nickname": null,
+      "house": "Baratheon",
+      "parents": [
+        "Robert Baratheon"
+      ],
+      "siblings": null,
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTcxNzYwMTk4MV5BMl5BanBnXkFtZTcwNDg1ODg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Joe Dempsie",
+      "screenTime": 727,
+      "gender": "male",
+      "key": "GENDRY"
+    },
+    {
+      "name": "Gilly",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": [
+        "Craster"
+      ],
+      "siblings": null,
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzOTQxMTA3MF5BMl5BanBnXkFtZTcwODM5NDk4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Hannah Murray",
+      "screenTime": 122,
+      "gender": "female",
+      "key": "GILLY"
+    },
+    {
+      "name": "Grey Worm",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjk3ZDJlNTQtZDBiMC00ODVhLTlmYmYtYzkxMDA0N2QxNDY0XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "actor": "Jacob Anderson",
+      "screenTime": 1066,
+      "gender": "male",
+      "key": "GREY_WORM"
+    },
+    {
+      "name": "Harry Strickland",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Grey Worm"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BZGVkZjRkMzUtMzgzYy00YzcyLThhZmMtNDMxMGNmNGRmNWQyXkEyXkFqcGdeQXVyNDgzNTg0OTA@._V1._SX100_SY140_.jpg",
+      "actor": "Marc Rissmann",
+      "screenTime": 107,
+      "gender": "male",
+      "key": "HARRY"
+    },
+    {
+      "name": "Sandor Clegane",
+      "shortName": "",
+      "nickname": "The Hound",
+      "house": "none",
+      "parents": null,
+      "siblings": [
+        "Gregor Clegane"
+      ],
+      "killedBy": [
+        "Sandor Clegane"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwMjEwNDQ1MF5BMl5BanBnXkFtZTcwMzAxODg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Rory McCann",
+      "screenTime": 1104,
+      "gender": "male",
+      "key": "HOUND"
+    },
+    {
+      "name": "Ironborn Lord",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Noel Harron",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "IRONBORN_LORD"
+    },
+    {
+      "name": "Jaime Lannister",
+      "shortName": "",
+      "nickname": "The Kingslayer",
+      "house": "Lannister",
+      "parents": [
+        "Tywin Lannister"
+      ],
+      "siblings": [
+        "Cersei Lannister",
+        "Tyrion Lannister"
+      ],
+      "killedBy": [
+        "Roof collapse"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIzMzU1NjM1MF5BMl5BanBnXkFtZTcwMzIxODg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Nikolaj Coster-Waldau",
+      "screenTime": 2312,
+      "gender": "male",
+      "key": "JAIME"
+    },
+    {
+      "name": "Joffrey Baratheon",
+      "shortName": "",
+      "nickname": null,
+      "house": "Baratheon",
+      "parents": [
+        "Robert Baratheon",
+        "Cersei Lannister",
+        "Jaime Lannister"
+      ],
+      "siblings": [
+        "Myrcella Baratheon",
+        "Tommen Baratheon"
+      ],
+      "killedBy": [
+        "Petyr Baelish",
+        "Olenna Tyrell"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1NDg5MTAwMl5BMl5BanBnXkFtZTcwOTIwODg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Jack Gleeson",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "JOFFREY"
+    },
+    {
+      "name": "Jon Snow",
+      "shortName": "",
+      "nickname": null,
+      "house": [
+        "Stark",
+        "Targaryen"
+      ],
+      "parents": [
+        "Rhaegar Targaryen",
+        "Lyanna Stark"
+      ],
+      "siblings": null,
+      "killedBy": [
+        "Alliser Thorne",
+        "Othell Yarwyck",
+        "Bowen Marsh",
+        "Olly"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkwMjUxMDk2OV5BMl5BanBnXkFtZTcwMzg3MTg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Kit Harington",
+      "screenTime": 4888,
+      "gender": "male",
+      "key": "JON"
+    },
+    {
+      "name": "Jorah Mormont",
+      "shortName": "",
+      "nickname": null,
+      "house": "Mormont",
+      "parents": [
+        "Jeor Mormont"
+      ],
+      "siblings": null,
+      "killedBy": [
+        "Wights"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzNTcxMDI2NV5BMl5BanBnXkFtZTcwMzgxNzI4OQ@@._V1._CR225,437,407,405._SX100_SY140_.jpg",
+      "actor": "Iain Glen",
+      "screenTime": 709,
+      "gender": "male",
+      "key": "JORAH"
+    },
+    {
+      "name": "Baby Sam",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": [
+        "Samwell Tarly",
+        "Gilly"
+      ],
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "William Wilson",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "LITTLE_SAM"
+    },
+    {
+      "name": "Petyr Baelish",
+      "shortName": "",
+      "nickname": "Littlefinger",
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Arya Stark"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1MjE3OTc3M15BMl5BanBnXkFtZTcwODgzODg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Aidan Gillen",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "LITTLEFINGER"
+    },
+    {
+      "name": "Lyanna Stark",
+      "shortName": "",
+      "nickname": null,
+      "house": "Stark",
+      "parents": [
+        "Rickard Stark"
+      ],
+      "siblings": [
+        "Brandon Stark",
+        "Benjen Stark",
+        "Eddard Stark"
+      ],
+      "killedBy": [
+        "Jon Snow"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTE5NTczY2QtNmQxYS00NTAwLWE2ZTAtYzc1MTkyZGU5MzRkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "actor": "Aisling Franciosi",
+      "screenTime": 0,
+      "gender": "female",
+      "key": "LYANNA"
+    },
+    {
+      "name": "Lyanna Mormont",
+      "shortName": "",
+      "nickname": null,
+      "house": "Mormont",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Wun Wun"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTY3MWNmYjAtZjZhYi00M2IzLWJjNDMtMjUzZmU3NTYyYWUxXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "actor": "Bella Ramsey",
+      "screenTime": 210,
+      "gender": "female",
+      "key": "LYANNA_MORMONT"
+    },
+    {
+      "name": "Marei",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BYTZkM2M5OWItNjQ1NC00MDcyLWIwYjItODBhZmI5NWYxMDVlL2ltYWdlXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "actor": "Josephine Gillan",
+      "screenTime": 0,
+      "gender": "female",
+      "key": "MAREI"
+    },
+    {
+      "name": "Martha",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Bronte Carmichael",
+      "screenTime": 0,
+      "gender": "female",
+      "key": "MARTHA"
+    },
+    {
+      "name": "Marwyn",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Jim Broadbent",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "MARWYN"
+    },
+    {
+      "name": "Melisandre",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Old Age"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk0MjI5NjQ2OV5BMl5BanBnXkFtZTcwODI4NDk4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Carice van Houten",
+      "screenTime": 330,
+      "gender": "female",
+      "key": "MELISANDRE"
+    },
+    {
+      "name": "Missandei",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Gregor Clegane"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTE5OTI0OTA0OV5BMl5BanBnXkFtZTcwODczOTAzOQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Nathalie Emmanuel",
+      "screenTime": 475,
+      "gender": "female",
+      "key": "MISSANDEI"
+    },
+    {
+      "name": "Gregor Clegane",
+      "shortName": "",
+      "nickname": "The Mountain",
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Sandor Clegane"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU3OTg2MTM2MF5BMl5BanBnXkFtZTcwNDk1NzE5OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Hafþór Júlíus Björnsson",
+      "screenTime": 557,
+      "gender": "male",
+      "key": "MOUNTAIN"
+    },
+    {
+      "name": "Eddard Stark",
+      "shortName": "",
+      "nickname": "Ned",
+      "house": "Stark",
+      "parents": [
+        "Rickard Stark"
+      ],
+      "siblings": [
+        "Brandon Stark",
+        "Benjen Stark",
+        "Lyanna Stark"
+      ],
+      "killedBy": [
+        "Ilyn Payne"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BODcwMjg0MDQ5MF5BMl5BanBnXkFtZTcwMTk2NDk4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Sean Bean",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "NED"
+    },
+    {
+      "name": "Ned Umber",
+      "shortName": "",
+      "nickname": null,
+      "house": "Umber",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "The Night King"
+      ],
+      "portrait": null,
+      "actor": "Harry Grasby",
+      "screenTime": 66,
+      "gender": "male",
+      "key": "NED_UMBER"
+    },
+    {
+      "name": "The Night King",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Arya Stark"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BY2ZjNmYyMjAtNGUwYi00N2JmLWEyMTYtMDM5YmM2MWFhMWFiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1._SX100_SY140_.jpg",
+      "actor": "Vladimir 'Furdo' Furdik",
+      "screenTime": 234,
+      "gender": "male",
+      "key": "NIGHT_KING"
+    },
+    {
+      "name": "Nora",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Laura Elphinstone",
+      "screenTime": 0,
+      "gender": "female",
+      "key": "NORA"
+    },
+    {
+      "name": "Owen",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": null,
+      "screenTime": 0,
+      "gender": "male",
+      "key": "OWEN"
+    },
+    {
+      "name": "Podrick Payne",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTU5NjczOTQyNl5BMl5BanBnXkFtZTcwMzMwNTk4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Daniel Portman",
+      "screenTime": 347,
+      "gender": "male",
+      "key": "PODRICK"
+    },
+    {
+      "name": "Qhono",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMGMwYjgwMGQtOGRlNC00NDg0LTliM2ItN2I1NzIxZmQ5YTU1XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "actor": "Staz Nair",
+      "screenTime": 150,
+      "gender": "male",
+      "key": "QHONO"
+    },
+    {
+      "name": "Qyburn",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Gregor Clegane"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BZGEzNDY2YjktMDM1ZS00MTI1LWEyYmMtNTdiMzczNmY4ZWEzXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "actor": "Anton Lesser",
+      "screenTime": 362,
+      "gender": "male",
+      "key": "QYBURN"
+    },
+    {
+      "name": "Ramsay Snow",
+      "shortName": "",
+      "nickname": null,
+      "house": "Bolton",
+      "parents": [
+        "Roose Bolton"
+      ],
+      "siblings": null,
+      "killedBy": [
+        "Ramsay Snow's Hounds"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzM5Nzk3NTU5N15BMl5BanBnXkFtZTgwNzczMjk5NTE@._V1._SX100_SY140_.jpg",
+      "actor": "Iwan Rheon",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "RAMSAY"
+    },
+    {
+      "name": "Randyll Tarly",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Daenerys Targaryen"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIwMTY0NTc4N15BMl5BanBnXkFtZTgwNTMyNzYwOTE@._V1._SX100_SY140_.jpg",
+      "actor": "James Faulkner",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "RANDYLL"
+    },
+    {
+      "name": "Rhaegar Targaryen",
+      "shortName": "",
+      "nickname": null,
+      "house": "Targaryen",
+      "parents": [
+        "Rhaella Targaryen",
+        "Aerys II Targaryen"
+      ],
+      "siblings": [
+        "Daenerys Targaryen",
+        "Viserys Targaryen"
+      ],
+      "killedBy": [
+        "Robert Baratheon"
+      ],
+      "portrait": null,
+      "actor": "Wilf Scolding",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "RHAEGAR"
+    },
+    {
+      "name": "Riverlands Lord",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Andrew Bicknell",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "RIVERLANDS_LORD"
+    },
+    {
+      "name": "Robert Baratheon",
+      "shortName": "",
+      "nickname": null,
+      "house": "Baratheon",
+      "parents": null,
+      "siblings": [
+        "Stannis Baratheon",
+        "Renly Baratheon"
+      ],
+      "killedBy": [
+        "Boar"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzQwMDcwNzY5MF5BMl5BanBnXkFtZTcwMzIyMTE5OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Mark Addy",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "ROBERT"
+    },
+    {
+      "name": "Robin Arryn",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": [
+        "Jon Arryn",
+        "Lysa Arryn"
+      ],
+      "siblings": null,
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjBlNzE3YjEtMTcwYS00OTQxLTk1NjEtNGMwNzJhNWI2OGJjXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "actor": "Lino Facioli",
+      "screenTime": 54,
+      "gender": "male",
+      "key": "ROBIN"
+    },
+    {
+      "name": "Samwell Tarly",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": [
+        "Randyll Tarly",
+        "Melessa Tarly"
+      ],
+      "siblings": [
+        "Dickon Tarly",
+        "Talla Tarly"
+      ],
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyODYyOTczMF5BMl5BanBnXkFtZTcwNjY0ODg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "John Bradley",
+      "screenTime": 1088,
+      "gender": "male",
+      "key": "SAM"
+    },
+    {
+      "name": "Sansa Stark",
+      "shortName": "",
+      "nickname": null,
+      "house": "Stark",
+      "parents": [
+        "Eddard Stark",
+        "Catelyn Stark"
+      ],
+      "siblings": [
+        "Robb Stark",
+        "Arya Stark",
+        "Bran Stark",
+        "Rickon Stark"
+      ],
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjAwMjE2NDExNF5BMl5BanBnXkFtZTcwODAwODg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Sophie Turner",
+      "screenTime": 1757,
+      "gender": "female",
+      "key": "SANSA"
+    },
+    {
+      "name": "Sarra",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Danielle Galligan",
+      "screenTime": 0,
+      "gender": "female",
+      "key": "SARRA"
+    },
+    {
+      "name": "Teela",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Bea Glancy",
+      "screenTime": 0,
+      "gender": "female",
+      "key": "TEELA"
+    },
+    {
+      "name": "Theon Greyjoy",
+      "shortName": "",
+      "nickname": null,
+      "house": "Greyjoy",
+      "parents": [
+        "Balon Greyjoy"
+      ],
+      "siblings": [
+        "Yara Greyjoy"
+      ],
+      "killedBy": [
+        "The Night King"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM3ODUyOTY3N15BMl5BanBnXkFtZTcwNjI4MTg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Alfie Allen",
+      "screenTime": 497,
+      "gender": "male",
+      "key": "THEON"
+    },
+    {
+      "name": "Tormund Giantsbane",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc1OTU3NjUzNF5BMl5BanBnXkFtZTcwNDE0NzE5OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Kristofer Hivju",
+      "screenTime": 932,
+      "gender": "male",
+      "key": "TORMUND"
+    },
+    {
+      "name": "Tyrion Lannister",
+      "shortName": "",
+      "nickname": null,
+      "house": "Lannister",
+      "parents": [
+        "Tywin Lannister"
+      ],
+      "siblings": [
+        "Cersei Lannister",
+        "Jaime Lannister"
+      ],
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA2MDAwOTI0OV5BMl5BanBnXkFtZTcwNjA3NDg1Nw@@._V1._SX100_SY140_.jpg",
+      "actor": "Peter Dinklage",
+      "screenTime": 4467,
+      "gender": "male",
+      "key": "TYRION"
+    },
+    {
+      "name": "Tywin Lannister",
+      "shortName": "",
+      "nickname": null,
+      "house": "Lannister",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Tyrion Lannister"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTA4ODMxMzE1OV5BMl5BanBnXkFtZTcwMTM0ODg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Charles Dance",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "TYWIN"
+    },
+    {
+      "name": "Unsullied Captain",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Gabriel Akuwudike",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "UNSULLIED_CAPTAIN"
+    },
+    {
+      "name": "Vale Lord",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Frank Jakeman ",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "VALE_LORD"
+    },
+    {
+      "name": "Lord Varys",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": [
+        "Daenerys Targaryen"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzNDk2MjczM15BMl5BanBnXkFtZTcwODk0ODg4OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Conleth Hill",
+      "screenTime": 1037,
+      "gender": "male",
+      "key": "VARYS"
+    },
+    {
+      "name": "Vicky",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "null",
+      "screenTime": 0,
+      "gender": "female",
+      "key": "VICKY"
+    },
+    {
+      "name": "Viserys Targaryen",
+      "shortName": "",
+      "nickname": null,
+      "house": "Targaryen",
+      "parents": [
+        "Rhaella Targaryen",
+        "Aerys II Targaryen"
+      ],
+      "siblings": [
+        "Daenerys Targaryen",
+        "Rhaegar Targaryen"
+      ],
+      "killedBy": [
+        "Khal Drogo"
+      ],
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgwNzIxMTU1OV5BMl5BanBnXkFtZTcwNzI2ODg5NA@@._V1._SX100_SY140_.jpg",
+      "actor": "Harry Lloyd",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "VISERYS"
+    },
+    {
+      "name": "Willa",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Karla Lyons",
+      "screenTime": 0,
+      "gender": "female",
+      "key": "WILLA"
+    },
+    {
+      "name": "William",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": null,
+      "screenTime": 0,
+      "gender": "male",
+      "key": "WILLIAM"
+    },
+    {
+      "name": "Maester Wolkan",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": null,
+      "actor": "Richard Rycroft",
+      "screenTime": 0,
+      "gender": "male",
+      "key": "MAESTER_WOLKAN"
+    },
+    {
+      "name": "Yara Greyjoy",
+      "shortName": "",
+      "nickname": null,
+      "house": "Greyjoy",
+      "parents": [
+        "Balon Greyjoy"
+      ],
+      "siblings": [
+        "Theon Greyjoy"
+      ],
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc2NzU5ODk0MV5BMl5BanBnXkFtZTcwMzEyNDY2OQ@@._V1._SX100_SY140_.jpg",
+      "actor": "Gemma Whelan",
+      "screenTime": 222,
+      "gender": "female",
+      "key": "YARA"
+    },
+    {
+      "name": "Yohn Royce",
+      "shortName": "",
+      "nickname": null,
+      "house": "none",
+      "parents": null,
+      "siblings": null,
+      "killedBy": null,
+      "portrait": "https://images-na.ssl-images-amazon.com/images/M/MV5BZjgwNDc4NGQtMmQyMS00YjMyLWFhZWUtZmM0MjRkYmNmNGExXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "actor": "Rupert Vansittart",
+      "screenTime": 184,
+      "gender": "male",
+      "key": "YOHN_ROYCE"
+    }
+  ],
+  "links": [
+    {
+      "source": "DAENERYS",
+      "target": "JON",
+      "weight": 194
+    },
+    {
+      "source": "DAENERYS",
+      "target": "TYRION",
+      "weight": 122
+    },
+    {
+      "source": "JAIME",
+      "target": "TYRION",
+      "weight": 122
+    },
+    {
+      "source": "BRIENNE",
+      "target": "JAIME",
+      "weight": 121
+    },
+    {
+      "source": "JON",
+      "target": "TYRION",
+      "weight": 116
+    },
+    {
+      "source": "TYRION",
+      "target": "VARYS",
+      "weight": 114
+    },
+    {
+      "source": "SANSA",
+      "target": "TYRION",
+      "weight": 86
+    },
+    {
+      "source": "DAVOS",
+      "target": "TYRION",
+      "weight": 72
+    },
+    {
+      "source": "DAENERYS",
+      "target": "SANSA",
+      "weight": 71
+    },
+    {
+      "source": "ARYA",
+      "target": "GENDRY",
+      "weight": 70
+    },
+    {
+      "source": "ARYA",
+      "target": "JON",
+      "weight": 70
+    },
+    {
+      "source": "JON",
+      "target": "SANSA",
+      "weight": 70
+    },
+    {
+      "source": "JON",
+      "target": "SAM",
+      "weight": 66
+    },
+    {
+      "source": "ARYA",
+      "target": "HOUND",
+      "weight": 63
+    },
+    {
+      "source": "BRAN",
+      "target": "TYRION",
+      "weight": 55
+    },
+    {
+      "source": "ARYA",
+      "target": "SANSA",
+      "weight": 52
+    },
+    {
+      "source": "DAENERYS",
+      "target": "JORAH",
+      "weight": 51
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "JON",
+      "weight": 50
+    },
+    {
+      "source": "JON",
+      "target": "TORMUND",
+      "weight": 50
+    },
+    {
+      "source": "JON",
+      "target": "VARYS",
+      "weight": 49
+    },
+    {
+      "source": "DAVOS",
+      "target": "JON",
+      "weight": 47
+    },
+    {
+      "source": "BRIENNE",
+      "target": "TYRION",
+      "weight": 46
+    },
+    {
+      "source": "DAENERYS",
+      "target": "VARYS",
+      "weight": 44
+    },
+    {
+      "source": "CERSEI",
+      "target": "QYBURN",
+      "weight": 41
+    },
+    {
+      "source": "BRIENNE",
+      "target": "TORMUND",
+      "weight": 40
+    },
+    {
+      "source": "BRONN",
+      "target": "TYRION",
+      "weight": 40
+    },
+    {
+      "source": "CERSEI",
+      "target": "EURON",
+      "weight": 40
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "TYRION",
+      "weight": 40
+    },
+    {
+      "source": "JAIME",
+      "target": "TORMUND",
+      "weight": 38
+    },
+    {
+      "source": "DAENERYS",
+      "target": "GREY_WORM",
+      "weight": 37
+    },
+    {
+      "source": "CERSEI",
+      "target": "DAENERYS",
+      "weight": 36
+    },
+    {
+      "source": "BERIC",
+      "target": "HOUND",
+      "weight": 34
+    },
+    {
+      "source": "BRIENNE",
+      "target": "PODRICK",
+      "weight": 31
+    },
+    {
+      "source": "CERSEI",
+      "target": "JAIME",
+      "weight": 31
+    },
+    {
+      "source": "BRAN",
+      "target": "JON",
+      "weight": 30
+    },
+    {
+      "source": "SAM",
+      "target": "TORMUND",
+      "weight": 30
+    },
+    {
+      "source": "BRAN",
+      "target": "SANSA",
+      "weight": 28
+    },
+    {
+      "source": "JAIME",
+      "target": "PODRICK",
+      "weight": 28
+    },
+    {
+      "source": "BRAN",
+      "target": "THEON",
+      "weight": 27
+    },
+    {
+      "source": "DAVOS",
+      "target": "GREY_WORM",
+      "weight": 27
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "MISSANDEI",
+      "weight": 27
+    },
+    {
+      "source": "HOUND",
+      "target": "MOUNTAIN",
+      "weight": 27
+    },
+    {
+      "source": "CERSEI",
+      "target": "TYRION",
+      "weight": 26
+    },
+    {
+      "source": "DAENERYS",
+      "target": "SAM",
+      "weight": 26
+    },
+    {
+      "source": "GENDRY",
+      "target": "HOUND",
+      "weight": 26
+    },
+    {
+      "source": "JORAH",
+      "target": "SAM",
+      "weight": 26
+    },
+    {
+      "source": "BERIC",
+      "target": "TORMUND",
+      "weight": 24
+    },
+    {
+      "source": "BRAN",
+      "target": "JAIME",
+      "weight": 24
+    },
+    {
+      "source": "BRIENNE",
+      "target": "SANSA",
+      "weight": 24
+    },
+    {
+      "source": "CERSEI",
+      "target": "MOUNTAIN",
+      "weight": 24
+    },
+    {
+      "source": "SAM",
+      "target": "TYRION",
+      "weight": 24
+    },
+    {
+      "source": "BRAN",
+      "target": "SAM",
+      "weight": 23
+    },
+    {
+      "source": "BRIENNE",
+      "target": "GREY_WORM",
+      "weight": 23
+    },
+    {
+      "source": "BRIENNE",
+      "target": "SAM",
+      "weight": 23
+    },
+    {
+      "source": "DAENERYS",
+      "target": "JAIME",
+      "weight": 23
+    },
+    {
+      "source": "DAENERYS",
+      "target": "MISSANDEI",
+      "weight": 23
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "SAM",
+      "weight": 23
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "TORMUND",
+      "weight": 23
+    },
+    {
+      "source": "ARYA",
+      "target": "DAVOS",
+      "weight": 22
+    },
+    {
+      "source": "ARYA",
+      "target": "NORA",
+      "weight": 22
+    },
+    {
+      "source": "HOUND",
+      "target": "TORMUND",
+      "weight": 22
+    },
+    {
+      "source": "NORA",
+      "target": "VICKY",
+      "weight": 22
+    },
+    {
+      "source": "SANSA",
+      "target": "VARYS",
+      "weight": 22
+    },
+    {
+      "source": "ARYA",
+      "target": "BRAN",
+      "weight": 21
+    },
+    {
+      "source": "ARYA",
+      "target": "DAENERYS",
+      "weight": 21
+    },
+    {
+      "source": "DAENERYS",
+      "target": "GENDRY",
+      "weight": 21
+    },
+    {
+      "source": "MISSANDEI",
+      "target": "TYRION",
+      "weight": 21
+    },
+    {
+      "source": "BRONN",
+      "target": "QYBURN",
+      "weight": 20
+    },
+    {
+      "source": "PODRICK",
+      "target": "TORMUND",
+      "weight": 20
+    },
+    {
+      "source": "DAVOS",
+      "target": "TORMUND",
+      "weight": 19
+    },
+    {
+      "source": "GENDRY",
+      "target": "TORMUND",
+      "weight": 19
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "JAIME",
+      "weight": 19
+    },
+    {
+      "source": "JAIME",
+      "target": "SAM",
+      "weight": 19
+    },
+    {
+      "source": "JON",
+      "target": "NIGHT_KING",
+      "weight": 19
+    },
+    {
+      "source": "QYBURN",
+      "target": "TYRION",
+      "weight": 19
+    },
+    {
+      "source": "TORMUND",
+      "target": "TYRION",
+      "weight": 19
+    },
+    {
+      "source": "ARYA",
+      "target": "BERIC",
+      "weight": 18
+    },
+    {
+      "source": "BRIENNE",
+      "target": "DAVOS",
+      "weight": 18
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "SANSA",
+      "weight": 18
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "VARYS",
+      "weight": 18
+    },
+    {
+      "source": "JORAH",
+      "target": "TORMUND",
+      "weight": 18
+    },
+    {
+      "source": "PODRICK",
+      "target": "TYRION",
+      "weight": 18
+    },
+    {
+      "source": "DAENERYS",
+      "target": "DAVOS",
+      "weight": 17
+    },
+    {
+      "source": "DAVOS",
+      "target": "SANSA",
+      "weight": 17
+    },
+    {
+      "source": "EURON",
+      "target": "JAIME",
+      "weight": 17
+    },
+    {
+      "source": "GENDRY",
+      "target": "SAM",
+      "weight": 17
+    },
+    {
+      "source": "JORAH",
+      "target": "LYANNA_MORMONT",
+      "weight": 17
+    },
+    {
+      "source": "BRAN",
+      "target": "DAENERYS",
+      "weight": 16
+    },
+    {
+      "source": "DAENERYS",
+      "target": "TORMUND",
+      "weight": 16
+    },
+    {
+      "source": "EDDISON_TOLLETT",
+      "target": "SAM",
+      "weight": 16
+    },
+    {
+      "source": "GENDRY",
+      "target": "GREY_WORM",
+      "weight": 16
+    },
+    {
+      "source": "BERIC",
+      "target": "SAM",
+      "weight": 15
+    },
+    {
+      "source": "BRAN",
+      "target": "GREY_WORM",
+      "weight": 15
+    },
+    {
+      "source": "BRAN",
+      "target": "NIGHT_KING",
+      "weight": 15
+    },
+    {
+      "source": "MISSANDEI",
+      "target": "VARYS",
+      "weight": 15
+    },
+    {
+      "source": "ARYA",
+      "target": "VICKY",
+      "weight": 14
+    },
+    {
+      "source": "DAVOS",
+      "target": "SAM",
+      "weight": 14
+    },
+    {
+      "source": "DAVOS",
+      "target": "VARYS",
+      "weight": 14
+    },
+    {
+      "source": "HOUND",
+      "target": "SANSA",
+      "weight": 14
+    },
+    {
+      "source": "JAIME",
+      "target": "JORAH",
+      "weight": 14
+    },
+    {
+      "source": "JAIME",
+      "target": "SANSA",
+      "weight": 14
+    },
+    {
+      "source": "MISSANDEI",
+      "target": "SANSA",
+      "weight": 14
+    },
+    {
+      "source": "SANSA",
+      "target": "YOHN_ROYCE",
+      "weight": 14
+    },
+    {
+      "source": "ARYA",
+      "target": "GREY_WORM",
+      "weight": 13
+    },
+    {
+      "source": "ARYA",
+      "target": "MELISANDRE",
+      "weight": 13
+    },
+    {
+      "source": "BERIC",
+      "target": "JORAH",
+      "weight": 13
+    },
+    {
+      "source": "BRIENNE",
+      "target": "GENDRY",
+      "weight": 13
+    },
+    {
+      "source": "BRIENNE",
+      "target": "JORAH",
+      "weight": 13
+    },
+    {
+      "source": "BRONN",
+      "target": "JAIME",
+      "weight": 13
+    },
+    {
+      "source": "EDDISON_TOLLETT",
+      "target": "TORMUND",
+      "weight": 13
+    },
+    {
+      "source": "GENDRY",
+      "target": "JAIME",
+      "weight": 13
+    },
+    {
+      "source": "LYANNA_MORMONT",
+      "target": "SAM",
+      "weight": 13
+    },
+    {
+      "source": "BERIC",
+      "target": "GREY_WORM",
+      "weight": 12
+    },
+    {
+      "source": "CRAYAH",
+      "target": "DIRAH",
+      "weight": 12
+    },
+    {
+      "source": "MOUNTAIN",
+      "target": "QYBURN",
+      "weight": 12
+    },
+    {
+      "source": "SAM",
+      "target": "SANSA",
+      "weight": 12
+    },
+    {
+      "source": "SANSA",
+      "target": "MAESTER_WOLKAN",
+      "weight": 12
+    },
+    {
+      "source": "ARYA",
+      "target": "TYRION",
+      "weight": 11
+    },
+    {
+      "source": "BRAN",
+      "target": "BRIENNE",
+      "weight": 11
+    },
+    {
+      "source": "BRIENNE",
+      "target": "DAENERYS",
+      "weight": 11
+    },
+    {
+      "source": "BRIENNE",
+      "target": "JON",
+      "weight": 11
+    },
+    {
+      "source": "CERSEI",
+      "target": "HARRY",
+      "weight": 11
+    },
+    {
+      "source": "DAENERYS",
+      "target": "THEON",
+      "weight": 11
+    },
+    {
+      "source": "GILLY",
+      "target": "SAM",
+      "weight": 11
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "JORAH",
+      "weight": 11
+    },
+    {
+      "source": "JAIME",
+      "target": "JON",
+      "weight": 11
+    },
+    {
+      "source": "JON",
+      "target": "JORAH",
+      "weight": 11
+    },
+    {
+      "source": "JON",
+      "target": "LYANNA_MORMONT",
+      "weight": 11
+    },
+    {
+      "source": "JON",
+      "target": "MISSANDEI",
+      "weight": 11
+    },
+    {
+      "source": "JORAH",
+      "target": "MELISANDRE",
+      "weight": 11
+    },
+    {
+      "source": "MARTHA",
+      "target": "VARYS",
+      "weight": 11
+    },
+    {
+      "source": "SANSA",
+      "target": "THEON",
+      "weight": 11
+    },
+    {
+      "source": "ARYA",
+      "target": "SAM",
+      "weight": 10
+    },
+    {
+      "source": "BERIC",
+      "target": "BRIENNE",
+      "weight": 10
+    },
+    {
+      "source": "BRONN",
+      "target": "DAVOS",
+      "weight": 10
+    },
+    {
+      "source": "DAENERYS",
+      "target": "EURON",
+      "weight": 10
+    },
+    {
+      "source": "DAENERYS",
+      "target": "MAESTER_WOLKAN",
+      "weight": 10
+    },
+    {
+      "source": "DAENERYS",
+      "target": "NIGHT_KING",
+      "weight": 10
+    },
+    {
+      "source": "DAVOS",
+      "target": "JAIME",
+      "weight": 10
+    },
+    {
+      "source": "DAVOS",
+      "target": "MELISANDRE",
+      "weight": 10
+    },
+    {
+      "source": "HOUND",
+      "target": "JAIME",
+      "weight": 10
+    },
+    {
+      "source": "JAIME",
+      "target": "LYANNA_MORMONT",
+      "weight": 10
+    },
+    {
+      "source": "JORAH",
+      "target": "SANSA",
+      "weight": 10
+    },
+    {
+      "source": "JORAH",
+      "target": "TYRION",
+      "weight": 10
+    },
+    {
+      "source": "SANSA",
+      "target": "TORMUND",
+      "weight": 10
+    },
+    {
+      "source": "BERIC",
+      "target": "EDDISON_TOLLETT",
+      "weight": 9
+    },
+    {
+      "source": "BERIC",
+      "target": "JAIME",
+      "weight": 9
+    },
+    {
+      "source": "BRAN",
+      "target": "DAVOS",
+      "weight": 9
+    },
+    {
+      "source": "BRIENNE",
+      "target": "VARYS",
+      "weight": 9
+    },
+    {
+      "source": "CERSEI",
+      "target": "MISSANDEI",
+      "weight": 9
+    },
+    {
+      "source": "DAVOS",
+      "target": "PODRICK",
+      "weight": 9
+    },
+    {
+      "source": "GILLY",
+      "target": "JON",
+      "weight": 9
+    },
+    {
+      "source": "GILLY",
+      "target": "LITTLE_SAM",
+      "weight": 9
+    },
+    {
+      "source": "HOUND",
+      "target": "JORAH",
+      "weight": 9
+    },
+    {
+      "source": "JON",
+      "target": "LYANNA",
+      "weight": 9
+    },
+    {
+      "source": "JORAH",
+      "target": "VARYS",
+      "weight": 9
+    },
+    {
+      "source": "TYRION",
+      "target": "MAESTER_WOLKAN",
+      "weight": 9
+    },
+    {
+      "source": "TYRION",
+      "target": "YOHN_ROYCE",
+      "weight": 9
+    },
+    {
+      "source": "ALYS",
+      "target": "TYRION",
+      "weight": 8
+    },
+    {
+      "source": "BERIC",
+      "target": "JON",
+      "weight": 8
+    },
+    {
+      "source": "BRAN",
+      "target": "VARYS",
+      "weight": 8
+    },
+    {
+      "source": "BRONN",
+      "target": "SAM",
+      "weight": 8
+    },
+    {
+      "source": "EDDISON_TOLLETT",
+      "target": "JON",
+      "weight": 8
+    },
+    {
+      "source": "EURON",
+      "target": "YARA",
+      "weight": 8
+    },
+    {
+      "source": "GENDRY",
+      "target": "JORAH",
+      "weight": 8
+    },
+    {
+      "source": "GENDRY",
+      "target": "PODRICK",
+      "weight": 8
+    },
+    {
+      "source": "GILLY",
+      "target": "SANSA",
+      "weight": 8
+    },
+    {
+      "source": "GILLY",
+      "target": "TYRION",
+      "weight": 8
+    },
+    {
+      "source": "GILLY",
+      "target": "VARYS",
+      "weight": 8
+    },
+    {
+      "source": "HOUND",
+      "target": "MELISANDRE",
+      "weight": 8
+    },
+    {
+      "source": "HOUND",
+      "target": "SAM",
+      "weight": 8
+    },
+    {
+      "source": "NIGHT_KING",
+      "target": "THEON",
+      "weight": 8
+    },
+    {
+      "source": "PODRICK",
+      "target": "SAM",
+      "weight": 8
+    },
+    {
+      "source": "THEON",
+      "target": "YARA",
+      "weight": 8
+    },
+    {
+      "source": "ARYA",
+      "target": "TORMUND",
+      "weight": 7
+    },
+    {
+      "source": "ARYA",
+      "target": "VARYS",
+      "weight": 7
+    },
+    {
+      "source": "BRIENNE",
+      "target": "HOUND",
+      "weight": 7
+    },
+    {
+      "source": "BRIENNE",
+      "target": "LYANNA_MORMONT",
+      "weight": 7
+    },
+    {
+      "source": "BRONN",
+      "target": "CRAYAH",
+      "weight": 7
+    },
+    {
+      "source": "DAENERYS",
+      "target": "HOUND",
+      "weight": 7
+    },
+    {
+      "source": "DAENERYS",
+      "target": "LYANNA_MORMONT",
+      "weight": 7
+    },
+    {
+      "source": "GENDRY",
+      "target": "JON",
+      "weight": 7
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "LYANNA_MORMONT",
+      "weight": 7
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "PODRICK",
+      "weight": 7
+    },
+    {
+      "source": "JAIME",
+      "target": "VARYS",
+      "weight": 7
+    },
+    {
+      "source": "JON",
+      "target": "NED",
+      "weight": 7
+    },
+    {
+      "source": "JON",
+      "target": "RHAEGAR",
+      "weight": 7
+    },
+    {
+      "source": "LYANNA_MORMONT",
+      "target": "SANSA",
+      "weight": 7
+    },
+    {
+      "source": "LYANNA_MORMONT",
+      "target": "TYRION",
+      "weight": 7
+    },
+    {
+      "source": "ALYS",
+      "target": "DAVOS",
+      "weight": 6
+    },
+    {
+      "source": "ALYS",
+      "target": "VARYS",
+      "weight": 6
+    },
+    {
+      "source": "ARYA",
+      "target": "BRIENNE",
+      "weight": 6
+    },
+    {
+      "source": "BERIC",
+      "target": "GENDRY",
+      "weight": 6
+    },
+    {
+      "source": "BERIC",
+      "target": "MELISANDRE",
+      "weight": 6
+    },
+    {
+      "source": "BRAN",
+      "target": "JORAH",
+      "weight": 6
+    },
+    {
+      "source": "BRAN",
+      "target": "MISSANDEI",
+      "weight": 6
+    },
+    {
+      "source": "BRAN",
+      "target": "YOHN_ROYCE",
+      "weight": 6
+    },
+    {
+      "source": "BRIENNE",
+      "target": "MAESTER_WOLKAN",
+      "weight": 6
+    },
+    {
+      "source": "BRIENNE",
+      "target": "MISSANDEI",
+      "weight": 6
+    },
+    {
+      "source": "BRIENNE",
+      "target": "YOHN_ROYCE",
+      "weight": 6
+    },
+    {
+      "source": "CERSEI",
+      "target": "HOUND",
+      "weight": 6
+    },
+    {
+      "source": "DAENERYS",
+      "target": "YOHN_ROYCE",
+      "weight": 6
+    },
+    {
+      "source": "DAVOS",
+      "target": "GENDRY",
+      "weight": 6
+    },
+    {
+      "source": "DAVOS",
+      "target": "GILLY",
+      "weight": 6
+    },
+    {
+      "source": "DAVOS",
+      "target": "MAESTER_WOLKAN",
+      "weight": 6
+    },
+    {
+      "source": "DAVOS",
+      "target": "YOHN_ROYCE",
+      "weight": 6
+    },
+    {
+      "source": "EURON",
+      "target": "MOUNTAIN",
+      "weight": 6
+    },
+    {
+      "source": "EURON",
+      "target": "QYBURN",
+      "weight": 6
+    },
+    {
+      "source": "GENDRY",
+      "target": "TYRION",
+      "weight": 6
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "HOUND",
+      "weight": 6
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "QHONO",
+      "weight": 6
+    },
+    {
+      "source": "JON",
+      "target": "MAESTER_WOLKAN",
+      "weight": 6
+    },
+    {
+      "source": "LITTLE_SAM",
+      "target": "SANSA",
+      "weight": 6
+    },
+    {
+      "source": "LITTLE_SAM",
+      "target": "TYRION",
+      "weight": 6
+    },
+    {
+      "source": "LITTLE_SAM",
+      "target": "VARYS",
+      "weight": 6
+    },
+    {
+      "source": "LYANNA_MORMONT",
+      "target": "TORMUND",
+      "weight": 6
+    },
+    {
+      "source": "QHONO",
+      "target": "SAM",
+      "weight": 6
+    },
+    {
+      "source": "SAM",
+      "target": "VARYS",
+      "weight": 6
+    },
+    {
+      "source": "SAM",
+      "target": "YOHN_ROYCE",
+      "weight": 6
+    },
+    {
+      "source": "TORMUND",
+      "target": "VARYS",
+      "weight": 6
+    },
+    {
+      "source": "ALYS",
+      "target": "BRAN",
+      "weight": 5
+    },
+    {
+      "source": "ALYS",
+      "target": "DAENERYS",
+      "weight": 5
+    },
+    {
+      "source": "ALYS",
+      "target": "GREY_WORM",
+      "weight": 5
+    },
+    {
+      "source": "ALYS",
+      "target": "JON",
+      "weight": 5
+    },
+    {
+      "source": "ALYS",
+      "target": "JORAH",
+      "weight": 5
+    },
+    {
+      "source": "ALYS",
+      "target": "LYANNA_MORMONT",
+      "weight": 5
+    },
+    {
+      "source": "ALYS",
+      "target": "SANSA",
+      "weight": 5
+    },
+    {
+      "source": "ARYA",
+      "target": "CERSEI",
+      "weight": 5
+    },
+    {
+      "source": "ARYA",
+      "target": "JORAH",
+      "weight": 5
+    },
+    {
+      "source": "ARYA",
+      "target": "MISSANDEI",
+      "weight": 5
+    },
+    {
+      "source": "BRAN",
+      "target": "LYANNA_MORMONT",
+      "weight": 5
+    },
+    {
+      "source": "BRIENNE",
+      "target": "BRONN",
+      "weight": 5
+    },
+    {
+      "source": "BRONN",
+      "target": "DIRAH",
+      "weight": 5
+    },
+    {
+      "source": "BRONN",
+      "target": "MAREI",
+      "weight": 5
+    },
+    {
+      "source": "CERSEI",
+      "target": "GREY_WORM",
+      "weight": 5
+    },
+    {
+      "source": "EDMURE",
+      "target": "SANSA",
+      "weight": 5
+    },
+    {
+      "source": "GENDRY",
+      "target": "ROBERT",
+      "weight": 5
+    },
+    {
+      "source": "GENDRY",
+      "target": "SANSA",
+      "weight": 5
+    },
+    {
+      "source": "GILLY",
+      "target": "TORMUND",
+      "weight": 5
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "MELISANDRE",
+      "weight": 5
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "YOHN_ROYCE",
+      "weight": 5
+    },
+    {
+      "source": "JOFFREY",
+      "target": "TYRION",
+      "weight": 5
+    },
+    {
+      "source": "LYANNA_MORMONT",
+      "target": "VARYS",
+      "weight": 5
+    },
+    {
+      "source": "MELISANDRE",
+      "target": "TORMUND",
+      "weight": 5
+    },
+    {
+      "source": "MISSANDEI",
+      "target": "MOUNTAIN",
+      "weight": 5
+    },
+    {
+      "source": "SAM",
+      "target": "MAESTER_WOLKAN",
+      "weight": 5
+    },
+    {
+      "source": "THEON",
+      "target": "TYRION",
+      "weight": 5
+    },
+    {
+      "source": "TORMUND",
+      "target": "WILLA",
+      "weight": 5
+    },
+    {
+      "source": "TYRION",
+      "target": "TYWIN",
+      "weight": 5
+    },
+    {
+      "source": "VARYS",
+      "target": "MAESTER_WOLKAN",
+      "weight": 5
+    },
+    {
+      "source": "ALYS",
+      "target": "BRIENNE",
+      "weight": 4
+    },
+    {
+      "source": "ALYS",
+      "target": "JAIME",
+      "weight": 4
+    },
+    {
+      "source": "ALYS",
+      "target": "SAM",
+      "weight": 4
+    },
+    {
+      "source": "ALYS",
+      "target": "THEON",
+      "weight": 4
+    },
+    {
+      "source": "ALYS",
+      "target": "YOHN_ROYCE",
+      "weight": 4
+    },
+    {
+      "source": "ARYA",
+      "target": "LYANNA_MORMONT",
+      "weight": 4
+    },
+    {
+      "source": "ARYA",
+      "target": "MAESTER_WOLKAN",
+      "weight": 4
+    },
+    {
+      "source": "ARYA",
+      "target": "OWEN",
+      "weight": 4
+    },
+    {
+      "source": "ARYA",
+      "target": "QHONO",
+      "weight": 4
+    },
+    {
+      "source": "ARYA",
+      "target": "THEON",
+      "weight": 4
+    },
+    {
+      "source": "ARYA",
+      "target": "YOHN_ROYCE",
+      "weight": 4
+    },
+    {
+      "source": "BERIC",
+      "target": "DAENERYS",
+      "weight": 4
+    },
+    {
+      "source": "BERIC",
+      "target": "DAVOS",
+      "weight": 4
+    },
+    {
+      "source": "BERIC",
+      "target": "LYANNA_MORMONT",
+      "weight": 4
+    },
+    {
+      "source": "BERIC",
+      "target": "SANSA",
+      "weight": 4
+    },
+    {
+      "source": "BRAN",
+      "target": "GENDRY",
+      "weight": 4
+    },
+    {
+      "source": "BRAN",
+      "target": "MAESTER_WOLKAN",
+      "weight": 4
+    },
+    {
+      "source": "BRAN",
+      "target": "QHONO",
+      "weight": 4
+    },
+    {
+      "source": "BRAN",
+      "target": "TORMUND",
+      "weight": 4
+    },
+    {
+      "source": "BRIENNE",
+      "target": "QHONO",
+      "weight": 4
+    },
+    {
+      "source": "BRONN",
+      "target": "CERSEI",
+      "weight": 4
+    },
+    {
+      "source": "DAENERYS",
+      "target": "MOUNTAIN",
+      "weight": 4
+    },
+    {
+      "source": "DAENERYS",
+      "target": "PODRICK",
+      "weight": 4
+    },
+    {
+      "source": "DAENERYS",
+      "target": "QHONO",
+      "weight": 4
+    },
+    {
+      "source": "DAENERYS",
+      "target": "QYBURN",
+      "weight": 4
+    },
+    {
+      "source": "DAENERYS",
+      "target": "VISERYS",
+      "weight": 4
+    },
+    {
+      "source": "DAVOS",
+      "target": "JORAH",
+      "weight": 4
+    },
+    {
+      "source": "DAVOS",
+      "target": "LYANNA_MORMONT",
+      "weight": 4
+    },
+    {
+      "source": "DAVOS",
+      "target": "MISSANDEI",
+      "weight": 4
+    },
+    {
+      "source": "DAVOS",
+      "target": "QHONO",
+      "weight": 4
+    },
+    {
+      "source": "DAVOS",
+      "target": "TEELA",
+      "weight": 4
+    },
+    {
+      "source": "DORNISH_PRINCE",
+      "target": "YARA",
+      "weight": 4
+    },
+    {
+      "source": "EDDISON_TOLLETT",
+      "target": "GREY_WORM",
+      "weight": 4
+    },
+    {
+      "source": "EDDISON_TOLLETT",
+      "target": "JORAH",
+      "weight": 4
+    },
+    {
+      "source": "EDMURE",
+      "target": "YOHN_ROYCE",
+      "weight": 4
+    },
+    {
+      "source": "EURON",
+      "target": "HARRY",
+      "weight": 4
+    },
+    {
+      "source": "EURON",
+      "target": "MISSANDEI",
+      "weight": 4
+    },
+    {
+      "source": "EURON",
+      "target": "TYRION",
+      "weight": 4
+    },
+    {
+      "source": "GILLY",
+      "target": "MISSANDEI",
+      "weight": 4
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "MAESTER_WOLKAN",
+      "weight": 4
+    },
+    {
+      "source": "HOUND",
+      "target": "JON",
+      "weight": 4
+    },
+    {
+      "source": "HOUND",
+      "target": "NORA",
+      "weight": 4
+    },
+    {
+      "source": "HOUND",
+      "target": "PODRICK",
+      "weight": 4
+    },
+    {
+      "source": "HOUND",
+      "target": "QYBURN",
+      "weight": 4
+    },
+    {
+      "source": "JAIME",
+      "target": "QHONO",
+      "weight": 4
+    },
+    {
+      "source": "JAIME",
+      "target": "YOHN_ROYCE",
+      "weight": 4
+    },
+    {
+      "source": "JON",
+      "target": "QHONO",
+      "weight": 4
+    },
+    {
+      "source": "JON",
+      "target": "THEON",
+      "weight": 4
+    },
+    {
+      "source": "JON",
+      "target": "YOHN_ROYCE",
+      "weight": 4
+    },
+    {
+      "source": "JORAH",
+      "target": "MISSANDEI",
+      "weight": 4
+    },
+    {
+      "source": "JORAH",
+      "target": "PODRICK",
+      "weight": 4
+    },
+    {
+      "source": "JORAH",
+      "target": "QHONO",
+      "weight": 4
+    },
+    {
+      "source": "JORAH",
+      "target": "YOHN_ROYCE",
+      "weight": 4
+    },
+    {
+      "source": "LYANNA",
+      "target": "NED",
+      "weight": 4
+    },
+    {
+      "source": "LYANNA",
+      "target": "RHAEGAR",
+      "weight": 4
+    },
+    {
+      "source": "LYANNA_MORMONT",
+      "target": "QHONO",
+      "weight": 4
+    },
+    {
+      "source": "LYANNA_MORMONT",
+      "target": "THEON",
+      "weight": 4
+    },
+    {
+      "source": "LYANNA_MORMONT",
+      "target": "YOHN_ROYCE",
+      "weight": 4
+    },
+    {
+      "source": "MAESTER_WOLKAN",
+      "target": "YOHN_ROYCE",
+      "weight": 4
+    },
+    {
+      "source": "MISSANDEI",
+      "target": "SAM",
+      "weight": 4
+    },
+    {
+      "source": "QHONO",
+      "target": "SANSA",
+      "weight": 4
+    },
+    {
+      "source": "QHONO",
+      "target": "TORMUND",
+      "weight": 4
+    },
+    {
+      "source": "QHONO",
+      "target": "TYRION",
+      "weight": 4
+    },
+    {
+      "source": "QHONO",
+      "target": "VARYS",
+      "weight": 4
+    },
+    {
+      "source": "ROBIN",
+      "target": "MAESTER_WOLKAN",
+      "weight": 4
+    },
+    {
+      "source": "SAM",
+      "target": "THEON",
+      "weight": 4
+    },
+    {
+      "source": "SANSA",
+      "target": "YARA",
+      "weight": 4
+    },
+    {
+      "source": "VARYS",
+      "target": "YOHN_ROYCE",
+      "weight": 4
+    },
+    {
+      "source": "ALYS",
+      "target": "ARYA",
+      "weight": 3
+    },
+    {
+      "source": "ALYS",
+      "target": "MAESTER_WOLKAN",
+      "weight": 3
+    },
+    {
+      "source": "ALYS",
+      "target": "TORMUND",
+      "weight": 3
+    },
+    {
+      "source": "ARYA",
+      "target": "JAIME",
+      "weight": 3
+    },
+    {
+      "source": "ARYA",
+      "target": "NIGHT_KING",
+      "weight": 3
+    },
+    {
+      "source": "ARYA",
+      "target": "YARA",
+      "weight": 3
+    },
+    {
+      "source": "BERIC",
+      "target": "BRAN",
+      "weight": 3
+    },
+    {
+      "source": "BERIC",
+      "target": "NED_UMBER",
+      "weight": 3
+    },
+    {
+      "source": "BERIC",
+      "target": "THEON",
+      "weight": 3
+    },
+    {
+      "source": "BERIC",
+      "target": "TYRION",
+      "weight": 3
+    },
+    {
+      "source": "BERIC",
+      "target": "VARYS",
+      "weight": 3
+    },
+    {
+      "source": "BRAN",
+      "target": "BRONN",
+      "weight": 3
+    },
+    {
+      "source": "BRAN",
+      "target": "PODRICK",
+      "weight": 3
+    },
+    {
+      "source": "BRIENNE",
+      "target": "EDDISON_TOLLETT",
+      "weight": 3
+    },
+    {
+      "source": "CERSEI",
+      "target": "JON",
+      "weight": 3
+    },
+    {
+      "source": "CERSEI",
+      "target": "SANSA",
+      "weight": 3
+    },
+    {
+      "source": "CERSEI",
+      "target": "TYWIN",
+      "weight": 3
+    },
+    {
+      "source": "CERSEI",
+      "target": "VARYS",
+      "weight": 3
+    },
+    {
+      "source": "CRAYAH",
+      "target": "MAREI",
+      "weight": 3
+    },
+    {
+      "source": "CRAYAH",
+      "target": "QYBURN",
+      "weight": 3
+    },
+    {
+      "source": "DAENERYS",
+      "target": "RANDYLL",
+      "weight": 3
+    },
+    {
+      "source": "DAENERYS",
+      "target": "YARA",
+      "weight": 3
+    },
+    {
+      "source": "DAVOS",
+      "target": "HOUND",
+      "weight": 3
+    },
+    {
+      "source": "DAVOS",
+      "target": "THEON",
+      "weight": 3
+    },
+    {
+      "source": "DIRAH",
+      "target": "MAREI",
+      "weight": 3
+    },
+    {
+      "source": "DORNISH_PRINCE",
+      "target": "ROBIN",
+      "weight": 3
+    },
+    {
+      "source": "EDDISON_TOLLETT",
+      "target": "GENDRY",
+      "weight": 3
+    },
+    {
+      "source": "EDDISON_TOLLETT",
+      "target": "HOUND",
+      "weight": 3
+    },
+    {
+      "source": "EDDISON_TOLLETT",
+      "target": "JAIME",
+      "weight": 3
+    },
+    {
+      "source": "EDMURE",
+      "target": "MAESTER_WOLKAN",
+      "weight": 3
+    },
+    {
+      "source": "EDMURE",
+      "target": "RIVERLANDS_LORD",
+      "weight": 3
+    },
+    {
+      "source": "EDMURE",
+      "target": "ROBIN",
+      "weight": 3
+    },
+    {
+      "source": "EDMURE",
+      "target": "SAM",
+      "weight": 3
+    },
+    {
+      "source": "EDMURE",
+      "target": "TYRION",
+      "weight": 3
+    },
+    {
+      "source": "GENDRY",
+      "target": "VALE_LORD",
+      "weight": 3
+    },
+    {
+      "source": "GENDRY",
+      "target": "YOHN_ROYCE",
+      "weight": 3
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "MOUNTAIN",
+      "weight": 3
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "THEON",
+      "weight": 3
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "UNSULLIED_CAPTAIN",
+      "weight": 3
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "YARA",
+      "weight": 3
+    },
+    {
+      "source": "HOUND",
+      "target": "SARRA",
+      "weight": 3
+    },
+    {
+      "source": "HOUND",
+      "target": "VICKY",
+      "weight": 3
+    },
+    {
+      "source": "IRONBORN_LORD",
+      "target": "VALE_LORD",
+      "weight": 3
+    },
+    {
+      "source": "IRONBORN_LORD",
+      "target": "YARA",
+      "weight": 3
+    },
+    {
+      "source": "JAIME",
+      "target": "MISSANDEI",
+      "weight": 3
+    },
+    {
+      "source": "JON",
+      "target": "ROBERT",
+      "weight": 3
+    },
+    {
+      "source": "JORAH",
+      "target": "THEON",
+      "weight": 3
+    },
+    {
+      "source": "LYANNA",
+      "target": "VARYS",
+      "weight": 3
+    },
+    {
+      "source": "LYANNA_MORMONT",
+      "target": "MISSANDEI",
+      "weight": 3
+    },
+    {
+      "source": "MARWYN",
+      "target": "SAM",
+      "weight": 3
+    },
+    {
+      "source": "MISSANDEI",
+      "target": "QYBURN",
+      "weight": 3
+    },
+    {
+      "source": "MOUNTAIN",
+      "target": "TYRION",
+      "weight": 3
+    },
+    {
+      "source": "NED",
+      "target": "RHAEGAR",
+      "weight": 3
+    },
+    {
+      "source": "NED",
+      "target": "SANSA",
+      "weight": 3
+    },
+    {
+      "source": "NED_UMBER",
+      "target": "SANSA",
+      "weight": 3
+    },
+    {
+      "source": "RANDYLL",
+      "target": "SAM",
+      "weight": 3
+    },
+    {
+      "source": "RHAEGAR",
+      "target": "VARYS",
+      "weight": 3
+    },
+    {
+      "source": "RIVERLANDS_LORD",
+      "target": "YOHN_ROYCE",
+      "weight": 3
+    },
+    {
+      "source": "ROBIN",
+      "target": "SAM",
+      "weight": 3
+    },
+    {
+      "source": "ROBIN",
+      "target": "SANSA",
+      "weight": 3
+    },
+    {
+      "source": "ROBIN",
+      "target": "YOHN_ROYCE",
+      "weight": 3
+    },
+    {
+      "source": "THEON",
+      "target": "TORMUND",
+      "weight": 3
+    },
+    {
+      "source": "THEON",
+      "target": "VARYS",
+      "weight": 3
+    },
+    {
+      "source": "AEGON",
+      "target": "DAENERYS",
+      "weight": 2
+    },
+    {
+      "source": "AERYS",
+      "target": "DAENERYS",
+      "weight": 2
+    },
+    {
+      "source": "AERYS",
+      "target": "JON",
+      "weight": 2
+    },
+    {
+      "source": "ALANNA",
+      "target": "OWEN",
+      "weight": 2
+    },
+    {
+      "source": "ALTON",
+      "target": "JAIME",
+      "weight": 2
+    },
+    {
+      "source": "ALYS",
+      "target": "BERIC",
+      "weight": 2
+    },
+    {
+      "source": "ALYS",
+      "target": "GENDRY",
+      "weight": 2
+    },
+    {
+      "source": "ALYS",
+      "target": "MISSANDEI",
+      "weight": 2
+    },
+    {
+      "source": "ALYS",
+      "target": "QHONO",
+      "weight": 2
+    },
+    {
+      "source": "ARYA",
+      "target": "DORNISH_PRINCE",
+      "weight": 2
+    },
+    {
+      "source": "ARYA",
+      "target": "EDDISON_TOLLETT",
+      "weight": 2
+    },
+    {
+      "source": "ARYA",
+      "target": "EDMURE",
+      "weight": 2
+    },
+    {
+      "source": "ARYA",
+      "target": "IRONBORN_LORD",
+      "weight": 2
+    },
+    {
+      "source": "ARYA",
+      "target": "MOUNTAIN",
+      "weight": 2
+    },
+    {
+      "source": "ARYA",
+      "target": "PODRICK",
+      "weight": 2
+    },
+    {
+      "source": "ARYA",
+      "target": "RIVERLANDS_LORD",
+      "weight": 2
+    },
+    {
+      "source": "ARYA",
+      "target": "ROBIN",
+      "weight": 2
+    },
+    {
+      "source": "ARYA",
+      "target": "VALE_LORD",
+      "weight": 2
+    },
+    {
+      "source": "BERIC",
+      "target": "GILLY",
+      "weight": 2
+    },
+    {
+      "source": "BERIC",
+      "target": "NIGHT_KING",
+      "weight": 2
+    },
+    {
+      "source": "BERIC",
+      "target": "PODRICK",
+      "weight": 2
+    },
+    {
+      "source": "BERIC",
+      "target": "QHONO",
+      "weight": 2
+    },
+    {
+      "source": "BERIC",
+      "target": "TEELA",
+      "weight": 2
+    },
+    {
+      "source": "BERIC",
+      "target": "YOHN_ROYCE",
+      "weight": 2
+    },
+    {
+      "source": "BRAN",
+      "target": "DORNISH_PRINCE",
+      "weight": 2
+    },
+    {
+      "source": "BRAN",
+      "target": "EDMURE",
+      "weight": 2
+    },
+    {
+      "source": "BRAN",
+      "target": "IRONBORN_LORD",
+      "weight": 2
+    },
+    {
+      "source": "BRAN",
+      "target": "RIVERLANDS_LORD",
+      "weight": 2
+    },
+    {
+      "source": "BRAN",
+      "target": "ROBIN",
+      "weight": 2
+    },
+    {
+      "source": "BRAN",
+      "target": "VALE_LORD",
+      "weight": 2
+    },
+    {
+      "source": "BRAN",
+      "target": "YARA",
+      "weight": 2
+    },
+    {
+      "source": "BRIENNE",
+      "target": "CATELYN",
+      "weight": 2
+    },
+    {
+      "source": "BRIENNE",
+      "target": "DORNISH_PRINCE",
+      "weight": 2
+    },
+    {
+      "source": "BRIENNE",
+      "target": "EDMURE",
+      "weight": 2
+    },
+    {
+      "source": "BRIENNE",
+      "target": "IRONBORN_LORD",
+      "weight": 2
+    },
+    {
+      "source": "BRIENNE",
+      "target": "RIVERLANDS_LORD",
+      "weight": 2
+    },
+    {
+      "source": "BRIENNE",
+      "target": "ROBIN",
+      "weight": 2
+    },
+    {
+      "source": "BRIENNE",
+      "target": "THEON",
+      "weight": 2
+    },
+    {
+      "source": "BRIENNE",
+      "target": "VALE_LORD",
+      "weight": 2
+    },
+    {
+      "source": "BRIENNE",
+      "target": "YARA",
+      "weight": 2
+    },
+    {
+      "source": "BRONN",
+      "target": "DAENERYS",
+      "weight": 2
+    },
+    {
+      "source": "BRONN",
+      "target": "JOFFREY",
+      "weight": 2
+    },
+    {
+      "source": "CERSEI",
+      "target": "CERSEIS_BABY",
+      "weight": 2
+    },
+    {
+      "source": "CERSEI",
+      "target": "ROBERT",
+      "weight": 2
+    },
+    {
+      "source": "CERSEIS_BABY",
+      "target": "JAIME",
+      "weight": 2
+    },
+    {
+      "source": "CERSEIS_BABY",
+      "target": "TYRION",
+      "weight": 2
+    },
+    {
+      "source": "CRAYAH",
+      "target": "WILLIAM",
+      "weight": 2
+    },
+    {
+      "source": "DAENERYS",
+      "target": "DICKON",
+      "weight": 2
+    },
+    {
+      "source": "DAENERYS",
+      "target": "EDDISON_TOLLETT",
+      "weight": 2
+    },
+    {
+      "source": "DAENERYS",
+      "target": "LYANNA",
+      "weight": 2
+    },
+    {
+      "source": "DAENERYS",
+      "target": "NED_UMBER",
+      "weight": 2
+    },
+    {
+      "source": "DAENERYS",
+      "target": "ROBERT",
+      "weight": 2
+    },
+    {
+      "source": "DAENERYS",
+      "target": "TYWIN",
+      "weight": 2
+    },
+    {
+      "source": "DAVOS",
+      "target": "DORNISH_PRINCE",
+      "weight": 2
+    },
+    {
+      "source": "DAVOS",
+      "target": "EDDISON_TOLLETT",
+      "weight": 2
+    },
+    {
+      "source": "DAVOS",
+      "target": "EDMURE",
+      "weight": 2
+    },
+    {
+      "source": "DAVOS",
+      "target": "HARRY",
+      "weight": 2
+    },
+    {
+      "source": "DAVOS",
+      "target": "IRONBORN_LORD",
+      "weight": 2
+    },
+    {
+      "source": "DAVOS",
+      "target": "RIVERLANDS_LORD",
+      "weight": 2
+    },
+    {
+      "source": "DAVOS",
+      "target": "ROBIN",
+      "weight": 2
+    },
+    {
+      "source": "DAVOS",
+      "target": "VALE_LORD",
+      "weight": 2
+    },
+    {
+      "source": "DAVOS",
+      "target": "YARA",
+      "weight": 2
+    },
+    {
+      "source": "DICKON",
+      "target": "RANDYLL",
+      "weight": 2
+    },
+    {
+      "source": "DICKON",
+      "target": "SAM",
+      "weight": 2
+    },
+    {
+      "source": "DORNISH_PRINCE",
+      "target": "EDMURE",
+      "weight": 2
+    },
+    {
+      "source": "DORNISH_PRINCE",
+      "target": "GENDRY",
+      "weight": 2
+    },
+    {
+      "source": "DORNISH_PRINCE",
+      "target": "GREY_WORM",
+      "weight": 2
+    },
+    {
+      "source": "DORNISH_PRINCE",
+      "target": "IRONBORN_LORD",
+      "weight": 2
+    },
+    {
+      "source": "DORNISH_PRINCE",
+      "target": "MAESTER_WOLKAN",
+      "weight": 2
+    },
+    {
+      "source": "DORNISH_PRINCE",
+      "target": "RIVERLANDS_LORD",
+      "weight": 2
+    },
+    {
+      "source": "DORNISH_PRINCE",
+      "target": "SAM",
+      "weight": 2
+    },
+    {
+      "source": "DORNISH_PRINCE",
+      "target": "SANSA",
+      "weight": 2
+    },
+    {
+      "source": "DORNISH_PRINCE",
+      "target": "TYRION",
+      "weight": 2
+    },
+    {
+      "source": "DORNISH_PRINCE",
+      "target": "VALE_LORD",
+      "weight": 2
+    },
+    {
+      "source": "DORNISH_PRINCE",
+      "target": "YOHN_ROYCE",
+      "weight": 2
+    },
+    {
+      "source": "EDDISON_TOLLETT",
+      "target": "GILLY",
+      "weight": 2
+    },
+    {
+      "source": "EDDISON_TOLLETT",
+      "target": "LYANNA_MORMONT",
+      "weight": 2
+    },
+    {
+      "source": "EDDISON_TOLLETT",
+      "target": "NED_UMBER",
+      "weight": 2
+    },
+    {
+      "source": "EDDISON_TOLLETT",
+      "target": "SANSA",
+      "weight": 2
+    },
+    {
+      "source": "EDDISON_TOLLETT",
+      "target": "TEELA",
+      "weight": 2
+    },
+    {
+      "source": "EDMURE",
+      "target": "GENDRY",
+      "weight": 2
+    },
+    {
+      "source": "EDMURE",
+      "target": "GREY_WORM",
+      "weight": 2
+    },
+    {
+      "source": "EDMURE",
+      "target": "IRONBORN_LORD",
+      "weight": 2
+    },
+    {
+      "source": "EDMURE",
+      "target": "VALE_LORD",
+      "weight": 2
+    },
+    {
+      "source": "EDMURE",
+      "target": "YARA",
+      "weight": 2
+    },
+    {
+      "source": "EURON",
+      "target": "GREY_WORM",
+      "weight": 2
+    },
+    {
+      "source": "EURON",
+      "target": "THEON",
+      "weight": 2
+    },
+    {
+      "source": "EURON",
+      "target": "VARYS",
+      "weight": 2
+    },
+    {
+      "source": "GENDRY",
+      "target": "IRONBORN_LORD",
+      "weight": 2
+    },
+    {
+      "source": "GENDRY",
+      "target": "LYANNA_MORMONT",
+      "weight": 2
+    },
+    {
+      "source": "GENDRY",
+      "target": "MAESTER_WOLKAN",
+      "weight": 2
+    },
+    {
+      "source": "GENDRY",
+      "target": "QHONO",
+      "weight": 2
+    },
+    {
+      "source": "GENDRY",
+      "target": "RIVERLANDS_LORD",
+      "weight": 2
+    },
+    {
+      "source": "GENDRY",
+      "target": "ROBIN",
+      "weight": 2
+    },
+    {
+      "source": "GENDRY",
+      "target": "YARA",
+      "weight": 2
+    },
+    {
+      "source": "GILLY",
+      "target": "PODRICK",
+      "weight": 2
+    },
+    {
+      "source": "GILLY",
+      "target": "TEELA",
+      "weight": 2
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "HARRY",
+      "weight": 2
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "IRONBORN_LORD",
+      "weight": 2
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "RIVERLANDS_LORD",
+      "weight": 2
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "ROBIN",
+      "weight": 2
+    },
+    {
+      "source": "GREY_WORM",
+      "target": "VALE_LORD",
+      "weight": 2
+    },
+    {
+      "source": "HARRY",
+      "target": "JON",
+      "weight": 2
+    },
+    {
+      "source": "HOUND",
+      "target": "TYRION",
+      "weight": 2
+    },
+    {
+      "source": "HOUND",
+      "target": "WILLA",
+      "weight": 2
+    },
+    {
+      "source": "IRONBORN_LORD",
+      "target": "MAESTER_WOLKAN",
+      "weight": 2
+    },
+    {
+      "source": "IRONBORN_LORD",
+      "target": "RIVERLANDS_LORD",
+      "weight": 2
+    },
+    {
+      "source": "IRONBORN_LORD",
+      "target": "ROBIN",
+      "weight": 2
+    },
+    {
+      "source": "IRONBORN_LORD",
+      "target": "SAM",
+      "weight": 2
+    },
+    {
+      "source": "IRONBORN_LORD",
+      "target": "SANSA",
+      "weight": 2
+    },
+    {
+      "source": "IRONBORN_LORD",
+      "target": "TYRION",
+      "weight": 2
+    },
+    {
+      "source": "IRONBORN_LORD",
+      "target": "YOHN_ROYCE",
+      "weight": 2
+    },
+    {
+      "source": "JAIME",
+      "target": "MAESTER_WOLKAN",
+      "weight": 2
+    },
+    {
+      "source": "JAIME",
+      "target": "QYBURN",
+      "weight": 2
+    },
+    {
+      "source": "JAIME",
+      "target": "THEON",
+      "weight": 2
+    },
+    {
+      "source": "JAIME",
+      "target": "TYWIN",
+      "weight": 2
+    },
+    {
+      "source": "JOFFREY",
+      "target": "SANSA",
+      "weight": 2
+    },
+    {
+      "source": "JON",
+      "target": "PODRICK",
+      "weight": 2
+    },
+    {
+      "source": "JON",
+      "target": "TEELA",
+      "weight": 2
+    },
+    {
+      "source": "JON",
+      "target": "UNSULLIED_CAPTAIN",
+      "weight": 2
+    },
+    {
+      "source": "LITTLE_SAM",
+      "target": "MISSANDEI",
+      "weight": 2
+    },
+    {
+      "source": "LITTLE_SAM",
+      "target": "PODRICK",
+      "weight": 2
+    },
+    {
+      "source": "LITTLE_SAM",
+      "target": "SAM",
+      "weight": 2
+    },
+    {
+      "source": "LITTLEFINGER",
+      "target": "RAMSAY",
+      "weight": 2
+    },
+    {
+      "source": "LYANNA",
+      "target": "ROBERT",
+      "weight": 2
+    },
+    {
+      "source": "LYANNA",
+      "target": "SAM",
+      "weight": 2
+    },
+    {
+      "source": "MAESTER_WOLKAN",
+      "target": "YARA",
+      "weight": 2
+    },
+    {
+      "source": "MELISANDRE",
+      "target": "QHONO",
+      "weight": 2
+    },
+    {
+      "source": "MISSANDEI",
+      "target": "MAESTER_WOLKAN",
+      "weight": 2
+    },
+    {
+      "source": "MISSANDEI",
+      "target": "PODRICK",
+      "weight": 2
+    },
+    {
+      "source": "MISSANDEI",
+      "target": "QHONO",
+      "weight": 2
+    },
+    {
+      "source": "MISSANDEI",
+      "target": "YOHN_ROYCE",
+      "weight": 2
+    },
+    {
+      "source": "MOUNTAIN",
+      "target": "VARYS",
+      "weight": 2
+    },
+    {
+      "source": "NED",
+      "target": "ROBERT",
+      "weight": 2
+    },
+    {
+      "source": "NED",
+      "target": "VARYS",
+      "weight": 2
+    },
+    {
+      "source": "NED_UMBER",
+      "target": "TORMUND",
+      "weight": 2
+    },
+    {
+      "source": "PODRICK",
+      "target": "SANSA",
+      "weight": 2
+    },
+    {
+      "source": "PODRICK",
+      "target": "THEON",
+      "weight": 2
+    },
+    {
+      "source": "PODRICK",
+      "target": "VARYS",
+      "weight": 2
+    },
+    {
+      "source": "QHONO",
+      "target": "MAESTER_WOLKAN",
+      "weight": 2
+    },
+    {
+      "source": "QHONO",
+      "target": "THEON",
+      "weight": 2
+    },
+    {
+      "source": "QHONO",
+      "target": "YOHN_ROYCE",
+      "weight": 2
+    },
+    {
+      "source": "RHAEGAR",
+      "target": "SAM",
+      "weight": 2
+    },
+    {
+      "source": "RIVERLANDS_LORD",
+      "target": "MAESTER_WOLKAN",
+      "weight": 2
+    },
+    {
+      "source": "RIVERLANDS_LORD",
+      "target": "ROBIN",
+      "weight": 2
+    },
+    {
+      "source": "RIVERLANDS_LORD",
+      "target": "SAM",
+      "weight": 2
+    },
+    {
+      "source": "RIVERLANDS_LORD",
+      "target": "SANSA",
+      "weight": 2
+    },
+    {
+      "source": "RIVERLANDS_LORD",
+      "target": "TYRION",
+      "weight": 2
+    },
+    {
+      "source": "RIVERLANDS_LORD",
+      "target": "VALE_LORD",
+      "weight": 2
+    },
+    {
+      "source": "RIVERLANDS_LORD",
+      "target": "YARA",
+      "weight": 2
+    },
+    {
+      "source": "ROBERT",
+      "target": "SAM",
+      "weight": 2
+    },
+    {
+      "source": "ROBIN",
+      "target": "TYRION",
+      "weight": 2
+    },
+    {
+      "source": "ROBIN",
+      "target": "VALE_LORD",
+      "weight": 2
+    },
+    {
+      "source": "ROBIN",
+      "target": "YARA",
+      "weight": 2
+    },
+    {
+      "source": "SAM",
+      "target": "TEELA",
+      "weight": 2
+    },
+    {
+      "source": "SAM",
+      "target": "VALE_LORD",
+      "weight": 2
+    },
+    {
+      "source": "SAM",
+      "target": "YARA",
+      "weight": 2
+    },
+    {
+      "source": "SANSA",
+      "target": "SARRA",
+      "weight": 2
+    },
+    {
+      "source": "SANSA",
+      "target": "VALE_LORD",
+      "weight": 2
+    },
+    {
+      "source": "SANSA",
+      "target": "WILLA",
+      "weight": 2
+    },
+    {
+      "source": "SARRA",
+      "target": "TORMUND",
+      "weight": 2
+    },
+    {
+      "source": "SARRA",
+      "target": "WILLA",
+      "weight": 2
+    },
+    {
+      "source": "TEELA",
+      "target": "TORMUND",
+      "weight": 2
+    },
+    {
+      "source": "THEON",
+      "target": "MAESTER_WOLKAN",
+      "weight": 2
+    },
+    {
+      "source": "THEON",
+      "target": "YOHN_ROYCE",
+      "weight": 2
+    },
+    {
+      "source": "TORMUND",
+      "target": "YOHN_ROYCE",
+      "weight": 2
+    },
+    {
+      "source": "TYRION",
+      "target": "VALE_LORD",
+      "weight": 2
+    },
+    {
+      "source": "TYRION",
+      "target": "YARA",
+      "weight": 2
+    },
+    {
+      "source": "VALE_LORD",
+      "target": "MAESTER_WOLKAN",
+      "weight": 2
+    },
+    {
+      "source": "VALE_LORD",
+      "target": "YARA",
+      "weight": 2
+    },
+    {
+      "source": "VALE_LORD",
+      "target": "YOHN_ROYCE",
+      "weight": 2
+    },
+    {
+      "source": "YARA",
+      "target": "YOHN_ROYCE",
+      "weight": 2
+    }
+  ]
+}
