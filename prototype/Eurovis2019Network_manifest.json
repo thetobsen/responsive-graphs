@@ -4,6 +4,7 @@
 		{
 			"key": "followers_count",
 			"name": "Followers overall",
+			"short_name": "Followers",
 			"type": "int",
 			"filter": "range",
 			"flags": "layout|dod|label",
@@ -14,6 +15,7 @@
 		{
 			"key": "query_tweet_count",
 			"name": "Number of Tweets using #Eurovis2019",
+			"short_name": "Tweets #EuroVis2019",
 			"type": "int",
 			"filter": "range",
 			"flags": "layout|dod|label"
@@ -21,13 +23,18 @@
 		{
 			"key": "friends_count",
 			"name": "Follows",
+			"short_name": "Follows",
 			"type": "int",
 			"filter": "range",
-			"flags": "layout|dod|label"
+			"flags": "layout|dod|label",
+			"additional": {
+				"effective_range": [0, 5000]
+			}
 		},
 		{
 			"key": "statuses_count",
 			"name": "Number of Tweets",
+			"short_name": "Tweets",
 			"type": "int",
 			"filter": "range",
 			"flags": "layout|dod|label",
@@ -36,6 +43,7 @@
 		{
 			"key": "listed_count",
 			"name": "Number of lists added to",
+			"short_name": "Lists",
 			"type": "int",
 			"filter": "range",
 			"flags": "layout|dod|label"
@@ -43,6 +51,7 @@
 		{
 			"key": "favourites_count",
 			"name": "Number of liked tweets",
+			"short_name": "Liked tweets",
 			"type": "int",
 			"filter": "range",
 			"flags": "layout|dod|label"
@@ -50,6 +59,7 @@
 		{
 			"key": "count_followers_in_query",
 			"name": "Followers on Eurovis2019",
+			"short_name": "Followers on EuroVis",
 			"type": "int",
 			"filter": "range",
 			"flags": "layout|dod|label"
@@ -57,6 +67,7 @@
 		{
 			"key": "id",
 			"name": "Profile ID",
+			"short_name": "Profile ID",
 			"type": "int",
 			"filter": "input",
 			"flags": "label"
@@ -64,6 +75,7 @@
 		{
 			"key": "screen_name",
 			"name": "Twitter Handle",
+			"short_name": "Handle",
 			"type": "string",
 			"filter": "input",
 			"flags": "dod|primary|label"
@@ -71,6 +83,7 @@
 		{
 			"key": "profile_image_url",
 			"name": "Profile image",
+			"short_name": "Avatar",
 			"type": "string",
 			"filter": null,
 			"flags": "img|dod",
@@ -81,22 +94,37 @@
 		{
 			"key": "influential",
 			"name": "Influential",
+			"short_name": "Influential",
 			"type": "boolean",
 			"filter": "checkbox",
-			"flags": "dod|label",
-			"description": "Whether >8 followers on EuroVis19 or so"
+			"flags": "dod|label|layout",
+			"description": "Whether >8 followers on EuroVis19 or so",
+			"additional": {
+				"options": [
+					{ "value": true, "label": "Influential" },
+					{ "value": false, "label": "Non-influential" }
+				]
+			}
 		},
 		{
 			"key": "original",
 			"name": "Original",
+			"short_name": "Original",
 			"type": "boolean",
 			"filter": "checkbox",
-			"flags": "dod|label",
-			"description": "Whether within the 45 accounts tweeting #Eurovis2019"
+			"flags": "dod|label|layout",
+			"description": "Whether within the 45 accounts tweeting #Eurovis2019",
+			"additional": {
+				"options": [
+					{ "value": true, "label": "Original" },
+					{ "value": false, "label": "Non-original" }
+				]
+			}
 		},
 		{
 			"key": "utc_offset",
 			"name": "UTC Offset",
+			"short_name": "UTC Offset",
 			"type": "null",
 			"filter": null,
 			"flags": ""

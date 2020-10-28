@@ -4,6 +4,7 @@
 		{
 			"key": "name",
 			"name": "Name",
+			"short_name": "Name",
 			"type": "string",
 			"filter": "input",
 			"flags": "dod|label|primary"
@@ -11,6 +12,7 @@
 		{
 			"key": "shortName",
 			"name": "Short name",
+			"short_name": "Short name",
 			"type": "string",
 			"filter": "input",
 			"flags": "dod|label"
@@ -18,6 +20,7 @@
 		{
 			"key": "nickname",
 			"name": "Nickname",
+			"short_name": "Nickname",
 			"type": "string",
 			"filter": "input",
 			"flags": "dod|label|nullable"
@@ -25,27 +28,29 @@
 		{
 			"key": "house",
 			"name": "House",
+			"short_name": "House",
 			"type": "string",
 			"filter": "radio",
 			"flags": "dod|label|layout|arrayable",
 			"additional": {
 				"options": [
-					{ "value": "Targaryen", "label": "Targaryen" },
-					{ "value": "none", "label": "None" },
-					{ "value": "Lannister", "label": "Lannister" },
+					{ "value": "Targaryen", "label": "Targaryen" },					
 					{ "value": "Stark", "label": "Stark" },
+					{ "value": "Lannister", "label": "Lannister" },
 					{ "value": "Tully", "label": "Tully" },
 					{ "value": "Greyjoy", "label": "Greyjoy" },
 					{ "value": "Baratheon", "label": "Baratheon" },
 					{ "value": "Mormont", "label": "Mormont" },
 					{ "value": "Umber", "label": "Umber" },
-					{ "value": "Bolton", "label": "Bolton" }
+					{ "value": "Bolton", "label": "Bolton" },
+					{ "value": "none", "label": "None" }
 				]
 			}
 		},
 		{
 			"key": "parents",
 			"name": "Parents",
+			"short_name": "Parents",
 			"type": "array",
 			"filter": "input",
 			"flags": "dod|nullable",
@@ -56,6 +61,7 @@
 		{
 			"key": "siblings",
 			"name": "Siblings",
+			"short_name": "Siblings",
 			"type": "array",
 			"filter": "input",
 			"flags": "dod|nullable",
@@ -66,6 +72,7 @@
 		{
 			"key": "killedBy",
 			"name": "Killed by",
+			"short_name": "Killed by",
 			"type": "array",
 			"filter": "input",
 			"flags": "dod|nullable",
@@ -76,6 +83,7 @@
 		{
 			"key": "portrait",
 			"name": "Potrait",
+			"short_name": "Portrait",
 			"type": "string",
 			"filter": "input",
 			"flags": "dod|nullable|img"
@@ -83,6 +91,7 @@
 		{
 			"key": "actor",
 			"name": "Actor",
+			"short_name": "Actor",
 			"type": "string",
 			"filter": "input",
 			"flags": "dod|nullable|label"
@@ -90,6 +99,7 @@
 		{
 			"key": "screenTime",
 			"name": "Screen time",
+			"short_name": "Screen time",
 			"type": "int",
 			"filter": "range",
 			"flags": "dod|layout|label|seconds"
@@ -97,6 +107,7 @@
 		{
 			"key": "gender",
 			"name": "Gender",
+			"short_name": "Gender",
 			"type": "string",
 			"filter": "radio",
 			"flags": "dod|layout|label",
@@ -110,6 +121,7 @@
 		{
 			"key": "key",
 			"name": "ID",
+			"short_name": "ID",
 			"type": "string",
 			"filter": "input",
 			"flags": "label"

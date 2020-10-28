@@ -2,7 +2,7 @@
   "nodes": [
     {
       "name": "Aegon Targaryen",
-      "shortName": "",
+      "shortName": "Aegon",
       "nickname": null,
       "house": "Targaryen",
       "parents": [
@@ -24,7 +24,7 @@
     },
     {
       "name": "Aerys II Targaryen",
-      "shortName": "",
+      "shortName": "Aerys",
       "nickname": "The Mad King",
       "house": "Targaryen",
       "parents": null,
@@ -42,7 +42,7 @@
     },
     {
       "name": "Alanna",
-      "shortName": "",
+      "shortName": "Alanna",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -56,7 +56,7 @@
     },
     {
       "name": "Alton Lannister",
-      "shortName": "",
+      "shortName": "Alton",
       "nickname": null,
       "house": "Lannister",
       "parents": null,
@@ -72,7 +72,7 @@
     },
     {
       "name": "Alys Karstark",
-      "shortName": "",
+      "shortName": "Alys",
       "nickname": null,
       "house": "none",
       "parents": [
@@ -88,7 +88,7 @@
     },
     {
       "name": "Arya Stark",
-      "shortName": "",
+      "shortName": "Arya",
       "nickname": null,
       "house": "Stark",
       "parents": [
@@ -110,7 +110,7 @@
     },
     {
       "name": "Beric Dondarrion",
-      "shortName": "",
+      "shortName": "Beric",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -127,7 +127,7 @@
     },
     {
       "name": "Bran Stark",
-      "shortName": "",
+      "shortName": "Bran",
       "nickname": null,
       "house": "Stark",
       "parents": [
@@ -149,7 +149,7 @@
     },
     {
       "name": "Brienne of Tarth",
-      "shortName": "",
+      "shortName": "Brienne",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -163,7 +163,7 @@
     },
     {
       "name": "Bronn",
-      "shortName": "",
+      "shortName": "Bronn",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -177,7 +177,7 @@
     },
     {
       "name": "Catelyn Stark",
-      "shortName": "",
+      "shortName": "Catelyn",
       "nickname": null,
       "house": [
         "Stark",
@@ -201,7 +201,7 @@
     },
     {
       "name": "Cersei Lannister",
-      "shortName": "",
+      "shortName": "Cersei",
       "nickname": null,
       "house": [
         "Lannister",
@@ -225,7 +225,7 @@
     },
     {
       "name": "Cersei's Baby",
-      "shortName": "",
+      "shortName": "Cersei's Baby",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -239,7 +239,7 @@
     },
     {
       "name": "Crayah",
-      "shortName": "",
+      "shortName": "Crayah",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -253,7 +253,7 @@
     },
     {
       "name": "Daenerys Targaryen",
-      "shortName": "",
+      "shortName": "Daenerys",
       "nickname": null,
       "house": "Targaryen",
       "parents": [
@@ -275,7 +275,7 @@
     },
     {
       "name": "Davos Seaworth",
-      "shortName": "",
+      "shortName": "Davos",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -289,7 +289,7 @@
     },
     {
       "name": "Dickon Tarly",
-      "shortName": "",
+      "shortName": "Dickon",
       "nickname": null,
       "house": "none",
       "parents": [
@@ -311,7 +311,7 @@
     },
     {
       "name": "Dirah",
-      "shortName": "",
+      "shortName": "Dirah",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -325,7 +325,7 @@
     },
     {
       "name": "Dornish Prince",
-      "shortName": "",
+      "shortName": "Dornish Prince",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -339,7 +339,7 @@
     },
     {
       "name": "Eddison Tollett",
-      "shortName": "",
+      "shortName": "Eddison",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -355,7 +355,7 @@
     },
     {
       "name": "Edmure Tully",
-      "shortName": "",
+      "shortName": "Edmure",
       "nickname": null,
       "house": "Tully",
       "parents": null,
@@ -372,7 +372,7 @@
     },
     {
       "name": "Euron Greyjoy",
-      "shortName": "",
+      "shortName": "Euron",
       "nickname": null,
       "house": "Greyjoy",
       "parents": null,
@@ -391,7 +391,7 @@
     },
     {
       "name": "Gendry",
-      "shortName": "",
+      "shortName": "Gendry",
       "nickname": null,
       "house": "Baratheon",
       "parents": [
@@ -407,7 +407,7 @@
     },
     {
       "name": "Gilly",
-      "shortName": "",
+      "shortName": "Gilly",
       "nickname": null,
       "house": "none",
       "parents": [
@@ -423,7 +423,7 @@
     },
     {
       "name": "Grey Worm",
-      "shortName": "",
+      "shortName": "Grey Worm",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -437,7 +437,7 @@
     },
     {
       "name": "Harry Strickland",
-      "shortName": "",
+      "shortName": "Harry",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -453,7 +453,7 @@
     },
     {
       "name": "Sandor Clegane",
-      "shortName": "",
+      "shortName": "Sandor",
       "nickname": "The Hound",
       "house": "none",
       "parents": null,
@@ -471,7 +471,7 @@
     },
     {
       "name": "Ironborn Lord",
-      "shortName": "",
+      "shortName": "Ironborn Lord",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -485,7 +485,7 @@
     },
     {
       "name": "Jaime Lannister",
-      "shortName": "",
+      "shortName": "Jaime",
       "nickname": "The Kingslayer",
       "house": "Lannister",
       "parents": [
@@ -506,7 +506,7 @@
     },
     {
       "name": "Joffrey Baratheon",
-      "shortName": "",
+      "shortName": "Joffrey",
       "nickname": null,
       "house": "Baratheon",
       "parents": [
@@ -530,7 +530,7 @@
     },
     {
       "name": "Jon Snow",
-      "shortName": "",
+      "shortName": "Jon",
       "nickname": null,
       "house": [
         "Stark",
@@ -555,7 +555,7 @@
     },
     {
       "name": "Jorah Mormont",
-      "shortName": "",
+      "shortName": "Jorah",
       "nickname": null,
       "house": "Mormont",
       "parents": [
@@ -573,7 +573,7 @@
     },
     {
       "name": "Baby Sam",
-      "shortName": "",
+      "shortName": "Baby Sam",
       "nickname": null,
       "house": "none",
       "parents": [
@@ -590,7 +590,7 @@
     },
     {
       "name": "Petyr Baelish",
-      "shortName": "",
+      "shortName": "Petyr",
       "nickname": "Littlefinger",
       "house": "none",
       "parents": null,
@@ -606,7 +606,7 @@
     },
     {
       "name": "Lyanna Stark",
-      "shortName": "",
+      "shortName": "Lyanna Stark",
       "nickname": null,
       "house": "Stark",
       "parents": [
@@ -628,7 +628,7 @@
     },
     {
       "name": "Lyanna Mormont",
-      "shortName": "",
+      "shortName": "Lyanna Mormont",
       "nickname": null,
       "house": "Mormont",
       "parents": null,
@@ -644,7 +644,7 @@
     },
     {
       "name": "Marei",
-      "shortName": "",
+      "shortName": "Marei",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -658,7 +658,7 @@
     },
     {
       "name": "Martha",
-      "shortName": "",
+      "shortName": "Martha",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -672,7 +672,7 @@
     },
     {
       "name": "Marwyn",
-      "shortName": "",
+      "shortName": "Marwyn",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -686,7 +686,7 @@
     },
     {
       "name": "Melisandre",
-      "shortName": "",
+      "shortName": "Melisandre",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -702,7 +702,7 @@
     },
     {
       "name": "Missandei",
-      "shortName": "",
+      "shortName": "Missandei",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -718,7 +718,7 @@
     },
     {
       "name": "Gregor Clegane",
-      "shortName": "",
+      "shortName": "Gregor",
       "nickname": "The Mountain",
       "house": "none",
       "parents": null,
@@ -734,7 +734,7 @@
     },
     {
       "name": "Eddard Stark",
-      "shortName": "",
+      "shortName": "Eddard",
       "nickname": "Ned",
       "house": "Stark",
       "parents": [
@@ -756,7 +756,7 @@
     },
     {
       "name": "Ned Umber",
-      "shortName": "",
+      "shortName": "Ned Umber",
       "nickname": null,
       "house": "Umber",
       "parents": null,
@@ -772,7 +772,7 @@
     },
     {
       "name": "The Night King",
-      "shortName": "",
+      "shortName": "Night King",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -788,7 +788,7 @@
     },
     {
       "name": "Nora",
-      "shortName": "",
+      "shortName": "Nora",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -802,7 +802,7 @@
     },
     {
       "name": "Owen",
-      "shortName": "",
+      "shortName": "Owen",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -816,7 +816,7 @@
     },
     {
       "name": "Podrick Payne",
-      "shortName": "",
+      "shortName": "Podrick",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -830,7 +830,7 @@
     },
     {
       "name": "Qhono",
-      "shortName": "",
+      "shortName": "Qhono",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -844,7 +844,7 @@
     },
     {
       "name": "Qyburn",
-      "shortName": "",
+      "shortName": "Qyburn",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -860,7 +860,7 @@
     },
     {
       "name": "Ramsay Snow",
-      "shortName": "",
+      "shortName": "Ramsay",
       "nickname": null,
       "house": "Bolton",
       "parents": [
@@ -878,7 +878,7 @@
     },
     {
       "name": "Randyll Tarly",
-      "shortName": "",
+      "shortName": "Randyll",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -894,7 +894,7 @@
     },
     {
       "name": "Rhaegar Targaryen",
-      "shortName": "",
+      "shortName": "Rhaegar",
       "nickname": null,
       "house": "Targaryen",
       "parents": [
@@ -916,7 +916,7 @@
     },
     {
       "name": "Riverlands Lord",
-      "shortName": "",
+      "shortName": "Riverlands Lord",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -930,7 +930,7 @@
     },
     {
       "name": "Robert Baratheon",
-      "shortName": "",
+      "shortName": "Robert",
       "nickname": null,
       "house": "Baratheon",
       "parents": null,
@@ -949,7 +949,7 @@
     },
     {
       "name": "Robin Arryn",
-      "shortName": "",
+      "shortName": "Robin",
       "nickname": null,
       "house": "none",
       "parents": [
@@ -966,7 +966,7 @@
     },
     {
       "name": "Samwell Tarly",
-      "shortName": "",
+      "shortName": "Samwell",
       "nickname": null,
       "house": "none",
       "parents": [
@@ -986,7 +986,7 @@
     },
     {
       "name": "Sansa Stark",
-      "shortName": "",
+      "shortName": "Sansa",
       "nickname": null,
       "house": "Stark",
       "parents": [
@@ -1008,7 +1008,7 @@
     },
     {
       "name": "Sarra",
-      "shortName": "",
+      "shortName": "Sarra",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -1022,7 +1022,7 @@
     },
     {
       "name": "Teela",
-      "shortName": "",
+      "shortName": "Teela",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -1036,7 +1036,7 @@
     },
     {
       "name": "Theon Greyjoy",
-      "shortName": "",
+      "shortName": "Theon",
       "nickname": null,
       "house": "Greyjoy",
       "parents": [
@@ -1056,7 +1056,7 @@
     },
     {
       "name": "Tormund Giantsbane",
-      "shortName": "",
+      "shortName": "Tormund",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -1070,7 +1070,7 @@
     },
     {
       "name": "Tyrion Lannister",
-      "shortName": "",
+      "shortName": "Tyrion",
       "nickname": null,
       "house": "Lannister",
       "parents": [
@@ -1089,7 +1089,7 @@
     },
     {
       "name": "Tywin Lannister",
-      "shortName": "",
+      "shortName": "Tywin",
       "nickname": null,
       "house": "Lannister",
       "parents": null,
@@ -1105,7 +1105,7 @@
     },
     {
       "name": "Unsullied Captain",
-      "shortName": "",
+      "shortName": "Unsullied Captain",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -1119,7 +1119,7 @@
     },
     {
       "name": "Vale Lord",
-      "shortName": "",
+      "shortName": "Vale Lord",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -1133,7 +1133,7 @@
     },
     {
       "name": "Lord Varys",
-      "shortName": "",
+      "shortName": "Varys",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -1149,7 +1149,7 @@
     },
     {
       "name": "Vicky",
-      "shortName": "",
+      "shortName": "Vicky",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -1163,7 +1163,7 @@
     },
     {
       "name": "Viserys Targaryen",
-      "shortName": "",
+      "shortName": "Viserys",
       "nickname": null,
       "house": "Targaryen",
       "parents": [
@@ -1185,7 +1185,7 @@
     },
     {
       "name": "Willa",
-      "shortName": "",
+      "shortName": "Willa",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -1199,7 +1199,7 @@
     },
     {
       "name": "William",
-      "shortName": "",
+      "shortName": "William",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -1213,7 +1213,7 @@
     },
     {
       "name": "Maester Wolkan",
-      "shortName": "",
+      "shortName": "Wolkan",
       "nickname": null,
       "house": "none",
       "parents": null,
@@ -1245,7 +1245,7 @@
     },
     {
       "name": "Yohn Royce",
-      "shortName": "",
+      "shortName": "Yohn",
       "nickname": null,
       "house": "none",
       "parents": null,
