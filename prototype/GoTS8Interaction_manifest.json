@@ -124,7 +124,7 @@
 			"short_name": "ID",
 			"type": "string",
 			"filter": "input",
-			"flags": "label"
+			"flags": ""
 		}		
 	]
 }

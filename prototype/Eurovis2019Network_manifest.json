@@ -2,6 +2,14 @@
 	"identifier": "id",
 	"node_attributes": [
 		{
+			"key": "screen_name",
+			"name": "Twitter Name",
+			"short_name": "Name",
+			"type": "string",
+			"filter": "input",
+			"flags": "dod|primary|label"
+		},
+		{
 			"key": "followers_count",
 			"name": "Followers overall",
 			"short_name": "Followers",
@@ -9,7 +17,7 @@
 			"filter": "range",
 			"flags": "layout|dod|label",
 			"additional": {
-				"effective_range": [0, 30000]
+				"effective_range": [0, 50000]
 			}
 		},
 		{
@@ -73,14 +81,6 @@
 			"flags": "label"
 		},
 		{
-			"key": "screen_name",
-			"name": "Twitter Handle",
-			"short_name": "Handle",
-			"type": "string",
-			"filter": "input",
-			"flags": "dod|primary|label"
-		},
-		{
 			"key": "profile_image_url",
 			"name": "Profile image",
 			"short_name": "Avatar",
@@ -134,7 +134,7 @@
 		"filter": {
 			"edge": [
 				{
-					"type": "bidirection",
+					"type": "undirected",
 					"key": "id"
 				}
 			]
